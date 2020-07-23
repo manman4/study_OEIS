@@ -22,9 +22,9 @@ def A(n):
         return 1
     e_list.append({})
     dic = e_list[n - 2]
-    print([n, dic])
+    el = e_list[n - 1]
     for key in dic:
-        # print([n, key, dic[key].example, dic[key].count])
+        print([n, key, dic[key].example, dic[key].count])
         seq = dic[key].example
         for j in range(n - 1, 0, -1):
             p = seq[0:j] + [n - 1] + seq[j:]
@@ -33,15 +33,12 @@ def A(n):
                 break
             s = str(res)
             c = dic[key].count
-            el = e_list[n - 1]
             if s in el:
                 el[s].count += c
             else:
                 el[s] = EquivalenceClass(p, c)
 
-    return sum(e_list[n - 1][key].count for key in e_list[n - 1])
+    return sum(el[key].count for key in el)
 
-def A336282List(size): 
-    return [A(k) for k in range(size)]
-
-print(A336282List(6))
+for k in range(6):
+    print(A(k))
