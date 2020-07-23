@@ -1,8 +1,3 @@
-# class EquivalenceClass:
-#     def __init__(self, example, count):
-#         self.example = example
-#         self.count = count
-
 def extendedSig(seq, key, n):
     key = eval(key)
     top = seq.index(n - 1)
@@ -13,7 +8,6 @@ def extendedSig(seq, key, n):
             key.insert(top, 2)
             return key
 
-# e_list = [{"[2]": EquivalenceClass([0], 1)}, {}]
 e_list = [{"[2]": [[0], 1]}, {}]
 
 def A(n):
@@ -26,7 +20,6 @@ def A(n):
         for j in range(n - 1, 0, -1):
             p = seq[0:j] + [n - 1] + seq[j:]
             res = extendedSig(p, key, n)
-            # print(p, not res, res)
             if not res:
                 break
             s = str(res)
@@ -43,5 +36,5 @@ def A(n):
         s += el[key][1]
     return s
 
-for k in range(30):
+for k in range(16):
     print([k, A(k)])
