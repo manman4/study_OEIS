@@ -6,36 +6,31 @@ def A(n)
   while a.size > 0
     b = []
     a.each{|i|
+      # 盤上の数字の合計
       sum = i.flatten.inject(:+)
+      # 盤の行数
       s = i.size
       (0..s).each{|k|
-        if k == 0
-          (i[0][-1]..n - sum).each{|m| 
-            j = Marshal.load(Marshal.dump(i))
-            j[0] << m
-            if m == n - sum
-              ary << j
-            else
-              b << j
-            end
-          }
-        elsif k < s
+        if k < s 
           k_size = i[k].size
-          if i[k - 1].size > k_size
-            ([i[k][-1], i[k - 1][k_size]].max..n - sum).each{|m|
-              j = Marshal.load(Marshal.dump(i))
-              j[k] << m
-              if m == n - sum
-                ary << j
-              else
-                b << j
-              end
-            }
-          end
+          left_num = i[k][-1]
         else
-          (i[s - 1][0]..n - sum).each{|m| 
+          k_size = 0
+          left_num = 0
+        end
+        if k == 0
+          # 適当に大きな数字
+          up_size = n + 2
+          up_num = 0
+        else
+          up_size = i[k - 1].size
+          up_num = i[k - 1][k_size]
+        end
+        if up_size > k_size
+          ([left_num, up_num].max..n - sum).each{|m|
             j = Marshal.load(Marshal.dump(i))
-            j << [m]
+            j << [] if k == s
+            j[k] << m
             if m == n - sum
               ary << j
             else
@@ -50,10 +45,9 @@ def A(n)
   end
   ary.uniq.size
 end
-b = []
-(0..26).each{|i|
-  j = A(i)
-  p j
-  b << j
+
+(0..40).each{|i|
+  print i
+  print ' '
+  puts A(i)
 }
-p b
