@@ -6,40 +6,38 @@ def A(n)
   while a.size > 0
     b = []
     a.each{|i|
+      # 盤上の数字の合計
       sum = i.flatten.inject(:+)
+      # 盤の行数
       s = i.size
       (0..s).each{|k|
         if k == 0
-          # (i[0][-1]..n - sum).each{|m|
-          m = i[k][-1]
-          if m <= n - sum
+          left_num = i[k][-1]
+          if left_num <= n - sum
             j = Marshal.load(Marshal.dump(i))
-            j[0] << m
-            if m == n - sum
+            j[0] << left_num
+            if left_num == n - sum
               ary << j
             else
               b << j
             end
           end
-          # }
         elsif k < s
           k_size = i[k].size
           if i[k - 1].size > k_size
-            # ([i[k][-1], i[k - 1][k_size]].max..n - sum).each{|m|
-            m = i[k][-1]
-            if m <= n - sum
+            left_num = i[k][-1]
+            if left_num <= n - sum
               j = Marshal.load(Marshal.dump(i))
-              j[k] << m
-              if m == n - sum
+              j[k] << left_num
+              if left_num == n - sum
                 ary << j
               else
                 b << j
               end
             end
-            # }
           end
         else
-          (i[s - 1][0]..n - sum).each{|m| 
+          (i[s - 1][0]..n - sum).each{|m|
             j = Marshal.load(Marshal.dump(i))
             j << [m]
             if m == n - sum
@@ -56,6 +54,7 @@ def A(n)
   end
   ary.uniq.size
 end
+
 b = []
 (0..40).each{|i|
   j = A(i)
