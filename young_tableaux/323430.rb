@@ -46,7 +46,7 @@ def A(n)
   ary.uniq.size
 end
 
-(0..40).each{|i|
+(0..45).each{|i|
   print i
   print ' '
   puts A(i)
