@@ -11,20 +11,15 @@ def A(n)
       # 盤の行数
       s = i.size
       (0..s).each{|k|
-        if k == 0
-          left_num = i[k][-1]
-          if left_num <= n - sum
-            j = Marshal.load(Marshal.dump(i))
-            j[0] << left_num
-            if left_num == n - sum
-              ary << j
-            else
-              b << j
-            end
-          end
-        elsif k < s
+        if k < s
           k_size = i[k].size
-          if i[k - 1].size > k_size
+          if k == 0
+            # 適当に大きな数字
+            up_size = n + 2
+          else
+            up_size = i[k - 1].size
+          end
+          if up_size > k_size
             left_num = i[k][-1]
             if left_num <= n - sum
               j = Marshal.load(Marshal.dump(i))
