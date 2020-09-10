@@ -11,13 +11,13 @@ def f(n):
     pieces = [p for p in pieces if p <= coords]
     pieces.sort(key=min)
     
-    def recurse(grid, candidates, depth='*'):
+    def recurse(grid, candidates, depth=1):
         if not grid: return 1
         if not candidates: return 0
         hd, tl = candidates[0], candidates[1:]
         if min(grid) != min(hd): return 0
-        if hd <= grid: return recurse(grid - hd, [t for t in tl if not (hd & t)], depth+'*') + recurse(grid, tl, depth+'*')
-        return recurse(grid, tl, depth+'*')
+        if hd <= grid: return recurse(grid - hd, [t for t in tl if not (hd & t)], depth+1) + recurse(grid, tl, depth+1)
+        return recurse(grid, tl, depth+1)
     return recurse(coords, pieces)
 
 for i in range(1,9):
