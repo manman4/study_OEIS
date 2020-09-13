@@ -20,5 +20,5 @@ def f(n):
         return recurse(grid, tl, depth+1)
     return recurse(coords, pieces)
 
-for i in range(1,9):
+for i in range(1, 9):
     print([i, f(i)])
