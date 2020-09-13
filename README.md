@@ -2,10 +2,10 @@
 
 OEIS の各数列の研究
 
-1. test
+* test
  
 PARI の結果の検証
 
-2. src
+* src
 
 数列の番号順に整理
