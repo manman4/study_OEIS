@@ -1,5 +1,5 @@
 def f(n):
-    coords = {(x,y) for x in range(n) for y in range(n) if x <= y}
+    coords = {(x, y) for x in range(n) for y in range(n) if x <= y}
     pieces = []
     for size in range(1,n+1):
         b0 = {(x,y) for x in range(size) for y in range(size) if x <= y}
@@ -7,7 +7,7 @@ def f(n):
         b2 = {(size-1-x,       y) for x,y in b0}
         b3 = {(size-1-x,size-1-y) for x,y in b0}
         bases = [b0] if size == 1 else [b0, b1, b2, b3]
-        pieces += [{(x+ox, y+oy) for x,y in b} for b in bases for ox in range(n) for oy in range(n)]
+        pieces += [{(x+ox, y+oy) for x, y in b} for b in bases for ox in range(n) for oy in range(n)]
     pieces = [p for p in pieces if p <= coords]
     pieces.sort(key=min)
     
