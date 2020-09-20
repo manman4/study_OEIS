@@ -15,7 +15,7 @@ def A(n)
             break
           end
         }
-        b_ary << a if a.size == s + 1 && a == a.uniq.sort
+        b_ary << a if a.size == s + 1 && a == a.sort
       }
     }
     f_ary = b_ary
@@ -24,8 +24,8 @@ def A(n)
   cnt
 end
 
-def A337766(n)
+def A337765(n)
   (1..n).map{|i| A(i)}
 end
 
-p A337766(50)
+p A337765(50)
