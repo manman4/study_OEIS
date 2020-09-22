@@ -9,3 +9,12 @@ OEIS の各数列の研究
 * src
 
     数列の番号順に整理
+    
+* formula
+    加えた公式の確認等
+    
+* addtion triangle
+
+* staircase polyomino
+
+* young tableaux
