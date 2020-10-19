@@ -1,6 +1,6 @@
 # study_OEIS
 
-OEIS の各数列の研究
+[OEIS](https://oeis.org/) の各数列の研究
 
 * test
  
