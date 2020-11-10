@@ -11,7 +11,14 @@
     数列の番号順に整理
     
 * formula
+
     加えた公式の確認等
+    
+* transform
+
+    Bell transform
+    
+    generalized Euler transform
     
 * addtion triangle
 
