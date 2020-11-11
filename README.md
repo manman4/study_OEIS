@@ -43,6 +43,8 @@
    - [Gus wiseman](https://oeis.org/search?q=author%3AGus+wiseman)
 
    - [Ilya Gutkovskiy](https://oeis.org/search?q=author%3AIlya+Gutkovskiy)
+   
+   - [Eric W. Weisstein](https://oeis.org/search?q=author%3AEric+W.+Weisstein)
 
    - [Seiichi Manyama](https://oeis.org/search?q=author%3ASeiichi+Manyama)
 
