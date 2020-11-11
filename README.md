@@ -39,6 +39,8 @@
 *　約5000以下
 
    - [Ilya Gutkovskiy](https://oeis.org/search?q=author%3AIlya+Gutkovskiy)
+   
+   - [Gus wiseman](https://oeis.org/search?q=author%3AGus+wiseman)
 
    - [Seiichi Manyama](https://oeis.org/search?q=author%3ASeiichi+Manyama)
 
