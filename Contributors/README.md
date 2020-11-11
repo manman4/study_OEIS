@@ -22,6 +22,8 @@
 
    - [Seiichi Manyama](https://oeis.org/search?q=author%3ASeiichi+Manyama)
    
+   - [T. D. Noe](https://oeis.org/search?q=author%3AT.+D.+Noe)
+   
    - [Michael Somos](https://oeis.org/search?q=author%3AMichael+Somos)
 
    - [Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
