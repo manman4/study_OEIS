@@ -52,6 +52,8 @@
 
 *　約1000以下
 
+   - [Joerg Arndt](https://oeis.org/search?q=author%3AJoerg+Arndt)
+
    - [Robert Israel](https://oeis.org/search?q=author%3ARobert+Israel)
 
    - [Andrew Howroyd](https://oeis.org/search?q=author%3AAndrew+Howroyd)
