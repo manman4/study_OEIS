@@ -20,6 +20,8 @@
 
 *　約5000以下
 
+   - [Robert G. Wilson v](https://oeis.org/search?q=author%3ARobert+G.+Wilson+v)
+
    - [Gus wiseman](https://oeis.org/search?q=author%3AGus+wiseman)
    
    - [Zak Seidov](https://oeis.org/search?q=author%3AZak+Seidov)
