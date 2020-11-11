@@ -30,6 +30,8 @@
    
    - [Eric W. Weisstein](https://oeis.org/search?q=author%3AEric+W.+Weisstein)
    
+   - [Wolfdieter Lang](https://oeis.org/search?q=author%3AWolfdieter+Lang)
+   
    - [Omar E. Pol](https://oeis.org/search?q=author%3AOmar+E.+Pol)
 
    - [Seiichi Manyama](https://oeis.org/search?q=author%3ASeiichi+Manyama)
