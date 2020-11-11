@@ -29,6 +29,8 @@
    - [T. D. Noe](https://oeis.org/search?q=author%3AT.+D.+Noe)
    
    - [Michael Somos](https://oeis.org/search?q=author%3AMichael+Somos)
+   
+   - [R. J. Mathar](https://oeis.org/search?q=author%3AR.+J.+Mathar)
 
    - [Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
    
