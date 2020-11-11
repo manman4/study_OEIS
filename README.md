@@ -26,7 +26,7 @@
 
 - young tableaux
 
-## 作成（≠編集）が多い方（敬称略）
+## (参考)　作成（≠編集）が多い方（敬称略）
 
 *　約10000超
 
@@ -45,6 +45,8 @@
    - [Seiichi Manyama](https://oeis.org/search?q=author%3ASeiichi+Manyama)
 
    - [Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
+   
+   - [Rémy Sigrist](https://oeis.org/search?q=author%3ARémy+Sigrist)
 
 *　約1000以下
 
