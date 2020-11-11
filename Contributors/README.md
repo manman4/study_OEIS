@@ -3,6 +3,8 @@
 *　約10000超
 
    - N. J. A. Sloane 　　too much to search...
+   
+   - [R. H. Hardin](https://oeis.org/search?q=author%3AR.+H.+Hardin)
 
 *　約10000以下
 
