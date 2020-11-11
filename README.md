@@ -46,6 +46,8 @@
 
    - [Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
    
+   - [Peter Luschny](https://oeis.org/search?q=author%3APeter+Luschny)
+   
    - [Rémy Sigrist](https://oeis.org/search?q=author%3ARémy+Sigrist)
    
    - [Giovanni Resta](https://oeis.org/search?q=author%3AGiovanni+Resta)
