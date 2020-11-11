@@ -25,3 +25,19 @@
 * staircase polyomino
 
 * young tableaux
+
+## 作成（≠編集）が多い方（敬称略）
+
+###　約10000超
+
+[Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
+
+###　約10000以下
+
+###　約5000以下
+
+###　約1000以下
+
+[Robert Israel](https://oeis.org/search?q=author%3ARobert+Israel)
+
+
