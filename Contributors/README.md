@@ -1,5 +1,7 @@
 ## (参考)　作成（≠編集）が多い方（without honorifics）
 
+順番は　大体　多い順です。
+
 *　約10000超
 
    - N. J. A. Sloane 　　too much to search...
