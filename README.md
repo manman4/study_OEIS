@@ -2,31 +2,31 @@
 
 [OEIS](https://oeis.org/) の各数列の研究
 
-* test
+- test
  
     PARI の結果の検証
 
-* src
+- src
 
     数列の番号順に整理
     
-* formula
+- formula
 
     加えた公式の確認等
     
-* transform
+- transform
 
     Bell transform
     
     generalized Euler transform
     
-* addtion triangle
+- addtion triangle
 
-* staircase polyomino
+- staircase polyomino
 
-* young tableaux
+- young tableaux
 
-# 作成（≠編集）が多い方（敬称略）
+## 作成（≠編集）が多い方（敬称略）
 
 *　約10000超
 
