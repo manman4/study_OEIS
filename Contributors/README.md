@@ -41,3 +41,5 @@
    - [Robert Israel](https://oeis.org/search?q=author%3ARobert+Israel)
 
    - [Andrew Howroyd](https://oeis.org/search?q=author%3AAndrew+Howroyd)
+   
+   - [Charles R Greathouse IV](https://oeis.org/search?q=author%3ACharles+R+Greathouse+IV)
