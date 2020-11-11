@@ -30,11 +30,17 @@
 
 ###　約10000超
 
-[Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
+
 
 ###　約10000以下
 
+
+
 ###　約5000以下
+
+[Ilya Gutkovskiy](https://oeis.org/search?q=author%3AIlya+Gutkovskiy)
+
+[Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
 
 ###　約1000以下
 
