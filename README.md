@@ -34,7 +34,7 @@
 
 *　約10000以下
 
-
+[Alois P. Heinz](https://oeis.org/search?q=author%3AAlois+P.+Heinz)
 
 *　約5000以下
 
