@@ -21,6 +21,8 @@
 *　約5000以下
 
    - [Gus wiseman](https://oeis.org/search?q=author%3AGus+wiseman)
+   
+   - [Zak Seidov](https://oeis.org/search?q=author%3AZak+Seidov)
 
    - [Ilya Gutkovskiy](https://oeis.org/search?q=author%3AIlya+Gutkovskiy)
    
