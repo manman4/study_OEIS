@@ -30,7 +30,7 @@
 
 *　約10000超
 
-   - N. J. A. Sloane 　　多すぎて検索不能
+   - N. J. A. Sloane 　　too much to search...
 
 *　約10000以下
 
@@ -51,6 +51,8 @@
    - [Peter Luschny](https://oeis.org/search?q=author%3APeter+Luschny)
    
    - [Rémy Sigrist](https://oeis.org/search?q=author%3ARémy+Sigrist)
+   
+   - [Amiram Eldar](https://oeis.org/search?q=author%3AAmiram+Eldar)
    
    - [Giovanni Resta](https://oeis.org/search?q=author%3AGiovanni+Resta)
    
