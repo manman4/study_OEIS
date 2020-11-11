@@ -34,6 +34,8 @@
 
 *　約10000以下
 
+   - [Paul D. Hanna](https://oeis.org/search?q=author%3APaul+D.+Hanna)
+
    - [Alois P. Heinz](https://oeis.org/search?q=author%3AAlois+P.+Heinz)
 
 *　約5000以下
