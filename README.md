@@ -48,6 +48,8 @@
    
    - [Rémy Sigrist](https://oeis.org/search?q=author%3ARémy+Sigrist)
    
+   - [Giovanni Resta](https://oeis.org/search?q=author%3AGiovanni+Resta)
+   
    - [Michel Marcus](https://oeis.org/search?q=author%3AMichel+Marcus)
 
 *　約1000以下
