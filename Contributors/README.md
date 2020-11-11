@@ -32,6 +32,8 @@
    
    - [Eric W. Weisstein](https://oeis.org/search?q=author%3AEric+W.+Weisstein)
    
+   - [David W. Wilson](https://oeis.org/search?q=author%3ADavid+W.+Wilson)
+   
    - [Wolfdieter Lang](https://oeis.org/search?q=author%3AWolfdieter+Lang)
    
    - [Omar E. Pol](https://oeis.org/search?q=author%3AOmar+E.+Pol)
