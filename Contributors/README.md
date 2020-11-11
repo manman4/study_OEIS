@@ -53,6 +53,8 @@
    - [Joerg Arndt](https://oeis.org/search?q=author%3AJoerg+Arndt)
 
    - [Robert Israel](https://oeis.org/search?q=author%3ARobert+Israel)
+   
+   - [Franklin T. Adams-Watters](https://oeis.org/search?q=author%3AFranklin+T.+Adams-Watters)
 
    - [Andrew Howroyd](https://oeis.org/search?q=author%3AAndrew+Howroyd)
    
