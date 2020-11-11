@@ -34,18 +34,18 @@
 
 *　約10000以下
 
-[Alois P. Heinz](https://oeis.org/search?q=author%3AAlois+P.+Heinz)
+     [Alois P. Heinz](https://oeis.org/search?q=author%3AAlois+P.+Heinz)
 
 *　約5000以下
 
-[Ilya Gutkovskiy](https://oeis.org/search?q=author%3AIlya+Gutkovskiy)
+     [Ilya Gutkovskiy](https://oeis.org/search?q=author%3AIlya+Gutkovskiy)
 
-[Seiichi Manyama](https://oeis.org/search?q=author%3ASeiichi+Manyama)
+     [Seiichi Manyama](https://oeis.org/search?q=author%3ASeiichi+Manyama)
 
-[Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
+     [Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
 
-###　約1000以下
+*　約1000以下
 
-[Robert Israel](https://oeis.org/search?q=author%3ARobert+Israel)
+     [Robert Israel](https://oeis.org/search?q=author%3ARobert+Israel)
 
 
