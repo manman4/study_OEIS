@@ -7,6 +7,8 @@
 *　約10000以下
 
    - [Paul D. Hanna](https://oeis.org/search?q=author%3APaul+D.+Hanna)
+   
+   - [Antti Karttunen](https://oeis.org/search?q=author%3AAntti+Karttunen)
 
    - [Alois P. Heinz](https://oeis.org/search?q=author%3AAlois+P.+Heinz)
    
