@@ -5,6 +5,8 @@
    - N. J. A. Sloane 　　too much to search...
    
    - [R. H. Hardin](https://oeis.org/search?q=author%3AR.+H.+Hardin)
+   
+   - [Clark Kimberling](https://oeis.org/search?q=author%3AClark+Kimberling)
 
 *　約10000以下
 
