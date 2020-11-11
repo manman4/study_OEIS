@@ -39,6 +39,8 @@
    - [Michael Somos](https://oeis.org/search?q=author%3AMichael+Somos)
    
    - [R. J. Mathar](https://oeis.org/search?q=author%3AR.+J.+Mathar)
+   
+   - [Simon Plouffe](https://oeis.org/search?q=author%3ASimon+Plouffe)
 
    - [Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
    
