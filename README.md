@@ -26,7 +26,7 @@
 
 - young tableaux
 
-## (参考)　作成（≠編集）が多い方（敬称略）
+## (参考)　作成（≠編集）が多い方（without honorifics）
 
 *　約10000超
 
