@@ -47,6 +47,8 @@
    - [Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
    
    - [Rémy Sigrist](https://oeis.org/search?q=author%3ARémy+Sigrist)
+   
+   - [Michel Marcus](https://oeis.org/search?q=author%3AMichel+Marcus)
 
 *　約1000以下
 
