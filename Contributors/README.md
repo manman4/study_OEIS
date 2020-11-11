@@ -9,6 +9,8 @@
    - [Paul D. Hanna](https://oeis.org/search?q=author%3APaul+D.+Hanna)
 
    - [Alois P. Heinz](https://oeis.org/search?q=author%3AAlois+P.+Heinz)
+   
+   - [Reinhard Zumkeller](https://oeis.org/search?q=author%3AReinhard+Zumkeller)
 
 *　約5000以下
 
