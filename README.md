@@ -28,17 +28,19 @@
 
 ## 作成（≠編集）が多い方（敬称略）
 
-###　約10000超
+*　約10000超
 
 
 
-###　約10000以下
+*　約10000以下
 
 
 
-###　約5000以下
+*　約5000以下
 
 [Ilya Gutkovskiy](https://oeis.org/search?q=author%3AIlya+Gutkovskiy)
+
+[Seiichi Manyama](https://oeis.org/search?q=author%3ASeiichi+Manyama)
 
 [Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
 
