@@ -48,6 +48,6 @@
 
 *　約1000以下
 
-  - [Robert Israel](https://oeis.org/search?q=author%3ARobert+Israel)
+   - [Robert Israel](https://oeis.org/search?q=author%3ARobert+Israel)
 
-
+   - [Andrew Howroyd](https://oeis.org/search?q=author%3AAndrew+Howroyd)
