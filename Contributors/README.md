@@ -60,6 +60,8 @@
    
    - [Amiram Eldar](https://oeis.org/search?q=author%3AAmiram+Eldar)
    
+   - [Jean-François Alcover](https://oeis.org/search?q=author%3AJean-François+Alcover)
+   
    - [Giovanni Resta](https://oeis.org/search?q=author%3AGiovanni+Resta)
    
    - [Michel Marcus](https://oeis.org/search?q=author%3AMichel+Marcus)
