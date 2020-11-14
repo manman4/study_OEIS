@@ -25,3 +25,5 @@
 - staircase polyomino
 
 - young tableaux
+
+- Contributors
