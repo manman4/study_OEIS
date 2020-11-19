@@ -3,6 +3,12 @@
 備忘録用
 
 
-```PARI:title
-int i = 0; //コード
+```PARI:E.g.f.:
+\\ \r
+\\ Nは使わない 
+
+v(n)={x='x+O('x^(n+10)); serlaplace(～) };
+M=100;
+v=v(M);
+for(n=0, M, write("C:\\Users\\○○\\bXXXXXX.txt", n, " ", polcoef(v, n)))
 ```
