@@ -12,7 +12,7 @@ v(n)={x='x+O('x^(n+10)); ～ };
 M=100;
 v=v(M);
 for(n=0, M, write("C:\\Users\\○○\\bXXXXXX.txt", n, " ", polcoef(v, n)))
-
+```
 
 - E.g.f.:
 
