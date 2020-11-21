@@ -6,7 +6,7 @@ PROG
 
 ```PARI:E.g.f.:
 \\ A194689
-my(N=66, x='x+O('x^N)); Vec(serlaplace(exp(2*(exp(x)-1-x)))) \\ _Seiichi Manyama_, Nov 20 2020
+my(N=66, x='x+O('x^N)); Vec(serlaplace(exp(2*(exp(x)-1-x))))
 ```
 
 b-file作成（備忘録用）
