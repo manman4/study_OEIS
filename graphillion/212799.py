@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 # Using graphillion
 from graphillion import GraphSet
 
