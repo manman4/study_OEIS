@@ -8,10 +8,10 @@
 | A212799 | C_4 X C_n | 
 | A212800 | C_n X C_n | 
 
-## Hamiltonian cycle
+## Hamiltonian cycles
 
 | Number | Graph | 
 | ----- | ----- | 
-| A222197 | C_n X P_n | 
+| [A222197](https://oeis.org/A222197) | C_n X P_n | 
 | A222199 | C_n X C_n | 
 
