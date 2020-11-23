@@ -1,5 +1,7 @@
 # grahillion
 
+直積空間　○X○　の添字が交換可能の時、奇数偶数によってコードが少し異なることが多い。（計算速度が異なるため）
+
 ## Spanning trees
 
 | Number | Graph | 
