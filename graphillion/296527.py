@@ -19,4 +19,4 @@ def A296527(n):
     cycles = GraphSet.cycles()
     return cycles.len()
 
-print([A296527(n) for n in range(3, 7)]) 
+print([A296527(n) for n in range(3, 7)])
