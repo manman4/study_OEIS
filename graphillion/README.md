@@ -6,7 +6,7 @@
 
 | Number | Graph | 
 | ----- | ----- | 
-| [A212798](https://oeis.org/A212798)| C_3 X C_n | 
+| [A212798](https://oeis.org/A212798) | C_3 X C_n | 
 | [A212799](https://oeis.org/A212799) | C_4 X C_n | 
 | [A212800](https://oeis.org/A212800) | C_n X C_n | 
 
@@ -15,5 +15,7 @@
 | Number | Graph | 
 | ----- | ----- | 
 | [A222197](https://oeis.org/A222197) | C_n X P_n | 
+| [A194952](https://oeis.org/A194952) | C_3 X C_n | 
+| [A216588](https://oeis.org/A216588) | C_4 X C_n | 
 | [A222199](https://oeis.org/A222199) | C_n X C_n | 
 
