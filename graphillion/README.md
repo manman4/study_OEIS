@@ -19,3 +19,8 @@
 | [A216588](https://oeis.org/A216588) | C_4 X C_n | 
 | [A222199](https://oeis.org/A222199) | C_n X C_n | 
 
+## (undirected) cycles
+
+| [A339074](https://oeis.org/A339074) | C_3 X C_n | 
+| [A339075](https://oeis.org/A339075) | C_4 X C_n | 
+| [A296527](https://oeis.org/A296527) | C_n X C_n | 
