@@ -20,6 +20,8 @@
     
     generalized Euler transform
     
+- graphillion
+
 - addtion triangle
 
 - staircase polyomino
