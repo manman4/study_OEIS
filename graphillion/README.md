@@ -21,6 +21,9 @@
 
 ## (undirected) cycles
 
+| Number | Graph | 
+| ----- | ----- | 
 | [A339074](https://oeis.org/A339074) | C_3 X C_n | 
 | [A339075](https://oeis.org/A339075) | C_4 X C_n | 
 | [A296527](https://oeis.org/A296527) | C_n X C_n | 
+
