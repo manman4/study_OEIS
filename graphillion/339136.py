@@ -18,4 +18,4 @@ def A339136(n):
     cycles = GraphSet.cycles()
     return cycles.len()
 
-print([A339136(n) for n in range(3, 8)])
+print([A339136(n) for n in range(1, 20)])
