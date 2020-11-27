@@ -12,10 +12,10 @@ def make_CnXPk(n, k):
             grids.append((i + j - 1, i + j))
     return grids
 
-def A336143(n):
+def A339143(n):
     universe = make_CnXPk(6, n)
     GraphSet.set_universe(universe)
     cycles = GraphSet.cycles()
     return cycles.len()
 
-print([A336143(n) for n in range(1, 30)])
+print([A339143(n) for n in range(1, 20)])
