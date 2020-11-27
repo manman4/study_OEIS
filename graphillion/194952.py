@@ -19,4 +19,4 @@ def A194952(n):
     cycles = GraphSet.cycles(is_hamilton=True)
     return cycles.len()
 
-print([A194952(n) for n in range(3, 30)])  
+print([A194952(n) for n in range(3, 30)])
