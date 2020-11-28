@@ -38,6 +38,10 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A194952](https://oeis.org/A194952) | C_3 X C_n | 添字ズレなし | 
 | [A216588](https://oeis.org/A216588) | C_4 X C_n | 添字ズレなし | 
 | [A222199](https://oeis.org/A222199) | C_n X C_n | 添字ズレなし | 
+| [A339200](https://oeis.org/A339200) | n X 3 king graph | 添字ズレなし | 
+| [A339201](https://oeis.org/A339201) | n X 4 king graph | 添字ズレなし | 
+| [A339202](https://oeis.org/A339202) | n X 5 king graph | 添字ズレなし | 
+| [A140519](https://oeis.org/A140519) | n X n king graph | 添字ズレなし | 
 
 ## (undirected) cycles
 
