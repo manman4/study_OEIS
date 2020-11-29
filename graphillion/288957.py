@@ -15,11 +15,14 @@ def make_nXk_king_graph(n, k):
             grids.append((i + j - 1, i + j))
     return grids
 
-def A288957(n):
-    if n == 1: return 1
-    universe = make_nXk_king_graph(n, n)
+def A338029(n, k):
+    if n == 1 or k == 1: return 1
+    universe = make_nXk_king_graph(n, k)
     GraphSet.set_universe(universe)
     spanning_trees = GraphSet.trees(is_spanning=True)
     return spanning_trees.len()
+
+def A288957(n):
+    return A338029(n, n)
 
 print([A288957(n) for n in range(1, 7)])
