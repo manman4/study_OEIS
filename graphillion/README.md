@@ -8,6 +8,10 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 
 | Number | Graph | 摘要 |
 | ----- | ----- | ----- | 
+| [A006238](https://oeis.org/A006268) | P_3 X P_n | 添字ズレなし |
+| [A003696](https://oeis.org/A003696) | P_4 X P_n | 添字ズレなし |
+| [A003779](https://oeis.org/A003779) | P_5 X P_n | 添字ズレなし |
+| [A139400](https://oeis.org/A139400) | P_6 X P_n | 添字ズレなし |
 | [A334002](https://oeis.org/A334002) | P_7 X P_n | 添字ズレなし |
 | [A334003](https://oeis.org/A334003) | P_8 X P_n | 添字ズレなし |
 | [A334004](https://oeis.org/A334004) | P_9 X P_n | 添字ズレなし | 
