@@ -20,6 +20,10 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A212798](https://oeis.org/A212798) | C_3 X C_n | 添字ズレなし | 
 | [A212799](https://oeis.org/A212799) | C_4 X C_n | 添字ズレなし | 
 | [A212800](https://oeis.org/A212800) | C_n X C_n | 添字ズレなし | 
+| [A338100](https://oeis.org/A338100) | n X 2 king graph | 添字ズレなし | 
+| [A338532](https://oeis.org/A338532) | n X 3 king graph | 添字ズレなし | 
+| [A338617](https://oeis.org/A338617) | n X 4 king graph | 添字ズレなし | 
+| [A339257](https://oeis.org/A339257) | n X 5 king graph | 添字ズレなし | 
 | [A288957](https://oeis.org/A288957) | n X n king graph | 添字ズレなし | 
 
 ## Hamiltonian cycles
