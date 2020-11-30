@@ -4,6 +4,10 @@
 
 P_n はtutorial を使う方が楽だが、他との比較のため なるべく ここでは使わないことにする。
 
+## Graph
+
+- [Triangular Grid Graph](https://mathworld.wolfram.com/TriangularGridGraph.html)
+
 ## Spanning trees
 
 | Number | Graph | 摘要 |
@@ -25,6 +29,7 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A338617](https://oeis.org/A338617) | n X 4 king graph | 添字ズレなし | 
 | [A339257](https://oeis.org/A339257) | n X 5 king graph | 添字ズレなし | 
 | [A288957](https://oeis.org/A288957) | n X n king graph | 添字ズレなし | 
+| [A174579](https://oeis.org/A174579) | n-triangular grid graph | 添字ズレなし | 
 
 ## Hamiltonian cycles
 
@@ -52,6 +57,7 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A339201](https://oeis.org/A339201) | n X 4 king graph | 添字ズレなし | 
 | [A339202](https://oeis.org/A339202) | n X 5 king graph | 添字ズレなし | 
 | [A140519](https://oeis.org/A140519) | n X n king graph | 添字ズレなし | 
+| [A112676](https://oeis.org/A112676) | n-triangular grid graph | 添字ズレあり | 
 
 ## (undirected) cycles
 
@@ -78,3 +84,4 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A339198](https://oeis.org/A339198) | n X 4 king graph | 添字ズレなし | 
 | [A339199](https://oeis.org/A339199) | n X 5 king graph | 添字ズレなし | 
 | [A234622](https://oeis.org/A234622) | n X n king graph | 添字ズレなし | 
+| [A266513](https://oeis.org/A266513) | n-triangular grid graph | 添字ズレあり | 
