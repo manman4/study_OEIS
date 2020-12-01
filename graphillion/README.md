@@ -30,6 +30,7 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A339257](https://oeis.org/A339257) | n X 5 king graph | 添字ズレなし | 
 | [A288957](https://oeis.org/A288957) | n X n king graph | 添字ズレなし | 
 | [A174579](https://oeis.org/A174579) | n-triangular grid graph | 添字ズレなし | 
+| [A071763](https://oeis.org/A071763) | n X n X n grid | 添字ズレなし | 
 
 ## Hamiltonian cycles
 
@@ -85,3 +86,4 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A339199](https://oeis.org/A339199) | n X 5 king graph | 添字ズレなし | 
 | [A234622](https://oeis.org/A234622) | n X n king graph | 添字ズレなし | 
 | [A266513](https://oeis.org/A266513) | n-triangular grid graph | 添字ズレあり | 
+| [A234620](https://oeis.org/A234620) | n X n X n grid | 添字ズレなし | 
