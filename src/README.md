@@ -14,8 +14,7 @@ my(N=66, x='x+O('x^N)); concat([0, 0], Vec(sum(k=1, N, x^(k*(3*k+1)/2)/(1-x^k)))
 ```PARI:E.g.f.:
 \\ A194689
 my(N=66, x='x+O('x^N)); Vec(serlaplace(exp(2*(exp(x)-1-x))))
-...
-
+```
 
 
 b-file作成（備忘録用）
