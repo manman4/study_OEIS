@@ -1,31 +1,5 @@
-# study_OEIS
+# Title
 
-[OEIS](https://oeis.org/) の各数列の研究
+## G.f.
 
-- test
- 
-    PARI の結果の検証
-
-- src
-
-    数列の番号順に整理
-    
-- formula
-
-    加えた公式の確認等
-    
-- transform
-
-    Bell transform
-    
-    generalized Euler transform
-    
-- graphillion
-
-- addtion triangle
-
-- staircase polyomino
-
-- young tableaux
-
-- Contributors
+2020/12/05 現在　Expansion of ～ ○○, G.f. ○○ ではなく Generating function Sum_{n >= 0} a(n)*x^n = ○○を推奨
