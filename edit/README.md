@@ -29,5 +29,3 @@
 - young tableaux
 
 - Contributors
-
-- edit
