@@ -1,5 +1,3 @@
-# Cf. https://manchanr6.blogspot.com/2017/05/170516.html
-
 def s(f_ary, g_ary, n)
   s = 0
   (1..n).each{|i| s += i * f_ary[i] * g_ary[i] ** (n / i) if n % i == 0}
