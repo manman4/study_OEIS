@@ -28,4 +28,5 @@ genET behaves like log, so
 | [A010815](https://oeis.org/A010815) | Product_{k>0} (1 - x^k) | [[-1, 1]] |
 | [A182605](https://oeis.org/A182605) | Product_{k>0} (1 - x^k)/(1 - 11 * x^k) | [[-1, 1], [1, 11]] |
 | [A266964](https://oeis.org/A266964) | Product_{k>0} (1 - k * x^k)^k | [[-n, n]] |
+| [A295123](https://oeis.org/A295123) | Product_{k>0} 1/(1 + x^k)^(k * (3 * k - 2) | [[n * (3 * n - 2), -1]] |
 | [A319756](https://oeis.org/A319756) | Product_{k>0} (1 - x^k)/(1 - k * x^k) | [[-1, 1], [1, n]] |
