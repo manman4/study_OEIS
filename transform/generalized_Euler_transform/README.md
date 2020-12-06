@@ -14,13 +14,13 @@ Examples:
 
 # Application
 
-Prod_{n>0}  (1 - g_1(n) * x^n) ^ f_1(n) = exp(Sum_{n>0} ( Sum_{d|n} d * f_1(d) * g_1(d)^(n/d) ) x^n/n ).
+Product_{n>0}  (1 - g_1(n) * x^n) ^ f_1(n) = exp(Sum_{n>0} ( Sum_{d|n} d * f_1(d) * g_1(d)^(n/d) ) x^n/n ).
 
-Prod_{n>0}  (1 - g_2(n) * x^n) ^ f_2(n) = exp(Sum_{n>0} ( Sum_{d|n} d * f_2(d) * g_2(d)^(n/d) ) x^n/n ).  
+Product_{n>0}  (1 - g_2(n) * x^n) ^ f_2(n) = exp(Sum_{n>0} ( Sum_{d|n} d * f_2(d) * g_2(d)^(n/d) ) x^n/n ).  
 
 Therefore
 
- Prod_{n>0}  (1 - g_1(n) * x^n) ^ f_1(n) * (1 - g_2(n) * x^n) ^ f_2(n) 
+ Product_{n>0}  (1 - g_1(n) * x^n) ^ f_1(n) * (1 - g_2(n) * x^n) ^ f_2(n) 
  
  = exp(Sum_{n>0} ( Sum_{d|n}  d * f_1(d) * g_1(d)^(n/d) + d * f_2(d) * g_2(d)^(n/d) ) x^n/n ).
 
