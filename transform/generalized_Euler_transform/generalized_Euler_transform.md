@@ -11,3 +11,10 @@ Examples:
 2. If we set f(n) = -h(n) and g(n) = -1, we get the weighout transform (cf. A026007).
 
 3. If we set f(n) = -n and g(n) = n, we get this sequence.
+
+
+## list
+
+| Number | G.f. | ary |
+| ----- | ----- | ----- | 
+| [A010815](https://oeis.org/A010815) | Product_{k>0} (1 - x^k) | [[-1, 1]] |
