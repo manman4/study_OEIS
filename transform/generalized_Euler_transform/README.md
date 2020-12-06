@@ -37,6 +37,5 @@ Therefore
 | [A295123](https://oeis.org/A295123) | Product_{k>0} 1/(1 + x^k)^(k * (3 * k - 2)) | [[n * (3 * n - 2), -1]] |
 | [A319756](https://oeis.org/A319756) | Product_{k>0} (1 - x^k)/(1 - k * x^k) | [[-1, 1], [1, n]] |
 
-## Appendx
-
+## Appendix
 https://github.com/manman4/study_OEIS/tree/master/eta_product
