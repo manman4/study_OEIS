@@ -23,6 +23,7 @@ genET behaves like log, so
 
 ## list
 
-| Number | G.f. | ary |
+| Number | G.f. | ary([[f_1, g_1], [f_2, g_2], ...]) |
 | ----- | ----- | ----- | 
 | [A010815](https://oeis.org/A010815) | Product_{k>0} (1 - x^k) | [[-1, 1]] |
+| [A182605](https://oeis.org/A182605) | Product_{k>0} (1 - x^k)/(1 - 11 * x^k) | [[-1, 1], [1, 11]] |
