@@ -10,7 +10,7 @@ Examples:
 
 2. If we set f(n) = -h(n) and g(n) = -1, we get the weighout transform (cf. A026007).
 
-3. If we set f(n) = -n and g(n) = n, we get this sequence.
+3. If we set f(n) = -n and g(n) = n, we get A266964.
 
 # Application
 
