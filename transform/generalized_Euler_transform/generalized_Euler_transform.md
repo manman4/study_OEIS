@@ -1,7 +1,4 @@
-A266964
-
-
-A generalized Euler transform.
+# A generalized Euler transform.
 
 Suppose given two sequences f(n) and g(n), n>0, we define a new sequence a(n), n>=0, by Product_{n>0} (1 - g(n)*x^n)^(-f(n)) = a(0) + a(1)*x + a(2)*x^2 + ...
 
