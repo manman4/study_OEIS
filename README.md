@@ -20,6 +20,8 @@
     
     generalized Euler transform
     
+- eta_product
+    
 - graphillion
 
 - addtion triangle
