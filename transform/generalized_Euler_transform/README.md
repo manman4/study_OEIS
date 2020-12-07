@@ -29,6 +29,7 @@ Product_{n>0}  (1 - g_1(n) * x^n) ^ f_1(n) * (1 - g_2(n) * x^n) ^ f_2(n)
 
 | Number | G.f. | ary([[f_1, g_1], [f_2, g_2], ...]) |
 | ----- | ----- | ----- | 
+| [A006951](https://oeis.org/A006951) | Product_{k>0} (1 - x^k)/(1 - 2 * x^k) | [[-1, 1], [1, 2]] |
 | [A010815](https://oeis.org/A010815) | Product_{k>0} (1 - x^k) | [[-1, 1]] |
 | [A182605](https://oeis.org/A182605) | Product_{k>0} (1 - x^k)/(1 - 11 * x^k) | [[-1, 1], [1, 11]] |
 | [A266964](https://oeis.org/A266964) | Product_{k>0} (1 - k * x^k)^k | [[-n, n]] |
