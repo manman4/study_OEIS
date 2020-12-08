@@ -1,3 +1,5 @@
+# m>0
+
 def s(f_ary, g_ary, n, m)
   s = 0
   (m..n).each{|i| s += i * f_ary[i] * g_ary[i] ** (n / i) if n % i == 0}
