@@ -1,4 +1,4 @@
-# Möbius_transform
+# Möbius transform
 
 a(n) = Sum_{d|n} mu(n/d) * b(d).
 
