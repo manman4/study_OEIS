@@ -1,6 +1,8 @@
 # Möbius transform
 
-a(n) = Sum_{d|n} mu(n/d) * b(d).
+b(n) = Sum_{d|n} mu(n/d) * a(d).
+
+http://oeis.org/wiki/M%C3%B6bius_transform
 
 ## list
 
