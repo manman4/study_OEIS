@@ -10,4 +10,5 @@ http://oeis.org/wiki/M%C3%B6bius_transform
 | ----- | ----- |
 | [A000010](https://oeis.org/A000010) | 1,2,3, ... (n) |
 | [A007444](https://oeis.org/A007444) | 2,3,5, ... (Primes) |
+| [A295505](https://oeis.org/A295505) | 1,4,16, ... (4^(n-1)) |
 | [A295506](https://oeis.org/A295506) | 1,5,25, ... (5^(n-1)) |
