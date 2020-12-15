@@ -25,5 +25,5 @@ def A308144(n):
             s += A(i, j, n)
     return s
 
-for i in range(2, 15):
+for i in range(2, 11):
     print(A308144(i))
