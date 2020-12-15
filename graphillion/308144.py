@@ -17,7 +17,7 @@ def A(start, goal, n):
     paths = GraphSet.paths(start, goal, is_hamilton=True)
     return paths.len()
 
-def A308142(n):
+def A308144(n):
     m = n * (n + 1) // 2
     s = 0
     for i in range(1, m):
@@ -26,4 +26,4 @@ def A308142(n):
     return s
 
 for i in range(2, 15):
-    print(A308142(i))
+    print(A308144(i))
