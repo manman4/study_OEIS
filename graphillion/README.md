@@ -32,6 +32,12 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A174579](https://oeis.org/A174579) | n-triangular grid graph | 添字ズレなし | 
 | [A071763](https://oeis.org/A071763) | n X n X n grid | 添字ズレなし | 
 
+## Hamiltonian paths
+
+| Number | Graph | 摘要 |
+| ----- | ----- | ----- | 
+| [A308144](https://oeis.org/A308144) | n-triangular grid graph | 添字ズレなし | 
+
 ## Hamiltonian cycles
 
 | Number | Graph | 摘要 |
