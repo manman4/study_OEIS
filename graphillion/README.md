@@ -32,6 +32,14 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A174579](https://oeis.org/A174579) | n-triangular grid graph | 添字ズレなし | 
 | [A071763](https://oeis.org/A071763) | n X n X n grid | 添字ズレなし | 
 
+
+## (undirected) paths
+
+| Number | Graph | 摘要 |
+| ----- | ----- | ----- | 
+| [A339750](https://oeis.org/A339750) | n X 2 king graph | 添字ズレなし | 
+| [A339751](https://oeis.org/A339751) | n X 3 king graph | 添字ズレなし | 
+
 ## Hamiltonian paths
 
 | Number | Graph | 摘要 |
