@@ -29,4 +29,4 @@ def B(n, k):
 def A003752(n):
     return B(4, n)
 
-print([A003752(n) for n in range(1, 21)])
+print([A003752(n) for n in range(1, 11)])
