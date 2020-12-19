@@ -55,6 +55,9 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A339798](https://oeis.org/A339798) | C_4 X C_n | 添字ズレなし | 
 | [A003689](https://oeis.org/A003689) | C_3 X P_n | 添字ズレなし | 
 | [A003752](https://oeis.org/A003752) | C_4 X P_n | 添字ズレなし | 
+| [A003732](https://oeis.org/A003732) | C_5 X P_n | 添字ズレなし | 
+| [A338297](https://oeis.org/A338297) | C_6 X P_n | 添字ズレなし | 
+| [A268894](https://oeis.org/A268894) | C_n X P_n | 添字ズレなし | 
 | [A339760](https://oeis.org/A339760) | n X 2 king graph | 添字ズレなし | 
 | [A339761](https://oeis.org/A339761) | n X 3 king graph | 添字ズレなし | 
 | [A339762](https://oeis.org/A339762) | n X 4 king graph | 添字ズレなし | 
