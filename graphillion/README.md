@@ -37,6 +37,7 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 
 | Number | Graph | 摘要 |
 | ----- | ----- | ----- | 
+| [A288516](https://oeis.org/A288516) | P_2 X P_n | 添字ズレなし |
 | [A288527](https://oeis.org/A288527) | P_3 X P_n | 添字ズレなし |
 | [A339795](https://oeis.org/A339795) | C_3 X C_n | 添字ズレなし | 
 | [A339796](https://oeis.org/A339796) | C_4 X C_n | 添字ズレなし | 
