@@ -19,6 +19,8 @@
     Bell transform
     
     generalized Euler transform
+
+    Möbius transform
     
 - eta_product
     
