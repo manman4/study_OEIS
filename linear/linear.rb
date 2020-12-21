@@ -3,15 +3,15 @@ require 'prime'
 def berlekamp_massey(s, q)
   b, c = [1], [1] + [0] * (s.size - 1)
   l, m, a = 0, -1, 1
-  s.size.times do |n|
+  s.size.times{|n|
     d = (0..l).inject(0) {|sum, i| (sum + c[i] * s[n - i]) % q}
     next if d == 0
     t = c[0..l]
-    (0...[s.size - n + m, b.size].min).each do |j|
+    (0...[s.size - n + m, b.size].min).each{|j|
       c[n - m + j] = (c[n - m + j] - d * a * b[j]) % q
-    end
+    }
     b, l, m, a = t, n + 1 - l, n, mod_inv(d, q) if 2 * l <= n
-  end
+  }
   c[0..l]
 end
 
@@ -35,17 +35,17 @@ end
 
 # f を多項式として f=0 が数列 s を生成する漸化式の特性方程式となっているか
 def test(f, s)
-  (0..s.size - f.size).all? do |i|
+  (0..s.size - f.size).all?{|i|
     f.each_with_index.inject(0) {|sum, (fj, j)|
       sum + fj * s[f.size + i - j - 1]
     } == 0
-  end
+  }
 end
 
 # 数列 s を生成する漸化式の特性方程式 f=0 の f を返す
 def polynomial(s)
   f, n = [], 1
-  Prime.each do |q|
+  Prime.each{|q|
     c = berlekamp_massey(s, q)
     if c.size != f.size then
       f, n = c, q if c.size > f.size
@@ -54,7 +54,7 @@ def polynomial(s)
     f = (0...f.size).map {|i| chinese(n, f[i], q, c[i])}
     return f if test(f, s)
     n *= q
-  end
+  }
 end
 
 a = [1, 2, 3, 5, 8]
