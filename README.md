@@ -26,6 +26,8 @@
     
 - graphillion
 
+- linear
+
 - addtion triangle
 
 - staircase polyomino
