@@ -7,3 +7,6 @@ b(n) = round(prod(i=1, n-1, prod(j=1, n-1, 4*cos(i*Pi/(2*n))^2+4*cos(j*Pi/(2*n))
 for(n=1, 20, print1(a(n) == b(n), ", "))
 c(n) = round(prod(i=1, n-1, prod(j=1, n-1, 4*sin(i*Pi/(2*n))^2+4*cos(j*Pi/(2*n))^2)));
 for(n=1, 20, print1(a(n) == c(n), ", "))
+
+\\ A007726
+for(n=1, 20, print1((a(n)/(n*2^(n-1)))^(1/2), ", "))
