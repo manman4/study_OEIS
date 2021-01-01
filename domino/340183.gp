@@ -17,3 +17,6 @@ g(n) = round(prod(j=1, n-1, prod(k=1, n-1, prod(m=1, n-1, 4*cos(j*Pi/(2*n))^2+4*
 for(n=1, 10, print1(a(n) == g(n), ", "))
 h(n) = round(prod(j=1, n-1, prod(k=1, n-1, prod(m=1, n-1, 4*cos(j*Pi/(2*n))^2+4*cos(k*Pi/(2*n))^2+4*cos(m*Pi/(2*n))^2))));
 for(n=1, 10, print1(a(n) == h(n), ", "))
+
+\\ 以下は整数
+for(n=1, 10, print1((a(n)/(n*3^(n-1)))^(1/3), ", "))
