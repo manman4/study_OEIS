@@ -26,6 +26,8 @@
     
 - graphillion
 
+- domino
+
 - linear
 
 - addtion triangle
