@@ -40,3 +40,10 @@
 | [A007725](https://oeis.org/A007725) | 4^(2 * (n-1) * n + 1) * Prod_{1<=j,k<=n-1} (1 - sin(j * Pi/(2 * n))^2     * sin(k * Pi/(2 * n))^2)     | 0 |
 | [A007725](https://oeis.org/A007725) | 4^(2 * (n-1) * n + 1) * Prod_{1<=j,k<=n-1} (1 - cos(j * Pi/(2 * n))^2     * cos(k * Pi/(2 * n))^2)     | 0 |
 | [A007725](https://oeis.org/A007725) | 4^(2 * (n-1) * n + 1) * Prod_{1<=j,k<=n-1} (1 - sin(j * Pi/(2 * n))^2     * cos(k * Pi/(2 * n))^2)     | 0 |
+
+Square array
+| Number | 式 | OFFSET | 
+| ----- | ----- | ----- |
+| [A340428](https://oeis.org/A340428) | 4^(2 * n * k) * Prod_{1<=a<=n} Prod_{1<=b<=k} (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | 0 |
+| [A340430](https://oeis.org/A340430) | 4^(2 * n * k) * Prod_{1<=a<=n} Prod_{1<=b<=k} (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | 0 |
+| [A340432](https://oeis.org/A340432) | 4^(2 * n * k) * Prod_{1<=a<=n} Prod_{1<=b<=k} (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | 0 |
