@@ -44,6 +44,6 @@
 Square array
 | Number | 式 | OFFSET | 
 | ----- | ----- | ----- |
-| [A340428](https://oeis.org/A340428) | 4^(2 * n * k) * Prod_{1<=a<=n} Prod_{1<=b<=k} (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | 0 |
-| [A340430](https://oeis.org/A340430) | 4^(2 * n * k) * Prod_{1<=a<=n} Prod_{1<=b<=k} (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | 0 |
-| [A340432](https://oeis.org/A340432) | 4^(2 * n * k) * Prod_{1<=a<=n} Prod_{1<=b<=k} (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | 0 |
+| [A340428](https://oeis.org/A340428) | 4^(2 * n * k) * Prod_{a=1..n} Prod_{b=1..k} (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | 0 |
+| [A340430](https://oeis.org/A340430) | 4^(2 * n * k) * Prod_{a=1..n} Prod_{b=1..k} (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | 0 |
+| [A340432](https://oeis.org/A340432) | 4^(2 * n * k) * Prod_{a=1..n} Prod_{b=1..k} (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | 0 |
