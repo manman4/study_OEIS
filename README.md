@@ -23,18 +23,22 @@
     Möbius transform
     
 - eta_product
-    
+
+- linear
+
+以下個別の話題
+
 - graphillion
 
 - domino
-
-- linear
 
 - addtion triangle
 
 - staircase polyomino
 
 - young tableaux
+
+その他
 
 - Contributors
 
