@@ -45,10 +45,10 @@ Square array
 
 | Number | 式 | OFFSET | 
 | ----- | ----- | ----- |
-| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(j * Pi/(2 * n))^2     + 4 * sin(k * Pi/(2 * k))^2)     | 1 |
-| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * cos(j * Pi/(2 * n))^2     + 4 * cos(k * Pi/(2 * k))^2)     | 1 |
-| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(j * Pi/(2 * n))^2     + 4 * cos(k * Pi/(2 * k))^2)     | 1 |
-| [A187617](https://oeis.org/A187617) | Prod_{a=1..n}   * Prod_{b=1..k}   (4 * cos(j * Pi/(2 * n + 1))^2 + 4 * cos(k * Pi/(2 * k + 1))^2) | 0 |
+| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/(2 * n))^2     + 4 * sin(b * Pi/(2 * k))^2)     | 1 |
+| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * cos(a * Pi/(2 * n))^2     + 4 * cos(b * Pi/(2 * k))^2)     | 1 |
+| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/(2 * n))^2     + 4 * cos(b * Pi/(2 * k))^2)     | 1 |
+| [A187617](https://oeis.org/A187617) | Prod_{a=1..n}   * Prod_{b=1..k}   (4 * cos(a * Pi/(2 * n + 1))^2 + 4 * cos(b * Pi/(2 * k + 1))^2) | 0 |
 
 | Number | 式 | OFFSET | 
 | ----- | ----- | ----- |
