@@ -42,6 +42,13 @@
 | [A007725](https://oeis.org/A007725) | 4^(2 * (n-1) * n + 1) * Prod_{1<=j,k<=n-1} (1 - sin(j * Pi/(2 * n))^2     * cos(k * Pi/(2 * n))^2)     | 0 |
 
 Square array
+
+| Number | 式 | OFFSET | 
+| ----- | ----- | ----- |
+| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} Prod_{b=1..k-1} (4 * sin(j * Pi/(2 * n))^2 + 4 * sin(k * Pi/(2 * n))^2) | 1 |
+| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} Prod_{b=1..k-1} (4 * cos(j * Pi/(2 * n))^2 + 4 * cos(k * Pi/(2 * n))^2) | 1 |
+| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} Prod_{b=1..k-1} (4 * sin(j * Pi/(2 * n))^2 + 4 * cos(k * Pi/(2 * n))^2) | 1 |
+
 | Number | 式 | OFFSET | 
 | ----- | ----- | ----- |
 | [A340427](https://oeis.org/A340427) | 4^(2 * (n-1) * (k-1)) * Prod_{a=1..n-1} Prod_{b=1..k-1} (1 - sin(a * Pi/(2 * n))^2     * sin(b * Pi/(2 * k))^2)     | 1 |
