@@ -43,25 +43,25 @@
 
 Square array
 
-| Number | 式 | OFFSET | 
+| Number | 式 | OFFSET (n,k) | 
 | ----- | ----- | ----- |
-| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/(2 * n))^2     + 4 * sin(b * Pi/(2 * k))^2)     | 1 |
-| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * cos(a * Pi/(2 * n))^2     + 4 * cos(b * Pi/(2 * k))^2)     | 1 |
-| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/(2 * n))^2     + 4 * cos(b * Pi/(2 * k))^2)     | 1 |
-| [A340475](https://oeis.org/A340475) | Prod_{a=1..n}   * Prod_{b=1..k}   (4 * sin(a * Pi/(2 * n + 1))^2 + 4 * sin(b * Pi/(2 * k + 1))^2) | 0 |
-| [A187617](https://oeis.org/A187617) | Prod_{a=1..n}   * Prod_{b=1..k}   (4 * cos(a * Pi/(2 * n + 1))^2 + 4 * cos(b * Pi/(2 * k + 1))^2) | 0 |
-| [A340476](https://oeis.org/A340476) | Prod_{a=1..n}   * Prod_{b=1..k}   (4 * sin(a * Pi/(2 * n + 1))^2 + 4 * cos(b * Pi/(2 * k + 1))^2) | 0 |
+| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/(2 * n))^2     + 4 * sin(b * Pi/(2 * k))^2)     | (1,1) |
+| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * cos(a * Pi/(2 * n))^2     + 4 * cos(b * Pi/(2 * k))^2)     | (1,1) |
+| [A116469](https://oeis.org/A116469) | Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/(2 * n))^2     + 4 * cos(b * Pi/(2 * k))^2)     | (1,1) |
+| [A340475](https://oeis.org/A340475) | Prod_{a=1..n}   * Prod_{b=1..k}   (4 * sin(a * Pi/(2 * n + 1))^2 + 4 * sin(b * Pi/(2 * k + 1))^2) | (0,0) |
+| [A187617](https://oeis.org/A187617) | Prod_{a=1..n}   * Prod_{b=1..k}   (4 * cos(a * Pi/(2 * n + 1))^2 + 4 * cos(b * Pi/(2 * k + 1))^2) | (0,0) |
+| [A340476](https://oeis.org/A340476) | Prod_{a=1..n}   * Prod_{b=1..k}   (4 * sin(a * Pi/(2 * n + 1))^2 + 4 * cos(b * Pi/(2 * k + 1))^2) | (0,0) |
 
-| Number | 式 | OFFSET | 
+| Number | 式 | OFFSET (n,k) | 
 | ----- | ----- | ----- |
-| [A340560](https://oeis.org/A340560) |      Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/n)^2 + 4 * sin(b * Pi/k)^2)  | 1 |
-| [A340561](https://oeis.org/A340561) | sqrt(Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/n)^2 + 4 * cos(b * Pi/k)^2)) | 1 |
+| [A340560](https://oeis.org/A340560) |      Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/n)^2 + 4 * sin(b * Pi/k)^2)  | (1,1) |
+| [A340561](https://oeis.org/A340561) | sqrt(Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/n)^2 + 4 * cos(b * Pi/k)^2)) | (1,1) |
 
-| Number | 式 | OFFSET | 
+| Number | 式 | OFFSET (n,k) | 
 | ----- | ----- | ----- |
-| [A340427](https://oeis.org/A340427) | 4^(2 * (n-1) * (k-1)) * Prod_{a=1..n-1} Prod_{b=1..k-1} (1 - sin(a * Pi/(2 * n))^2     * sin(b * Pi/(2 * k))^2)     | 1 |
-| [A340427](https://oeis.org/A340427) | 4^(2 * (n-1) * (k-1)) * Prod_{a=1..n-1} Prod_{b=1..k-1} (1 - cos(a * Pi/(2 * n))^2     * cos(b * Pi/(2 * k))^2)     | 1 |
-| [A340427](https://oeis.org/A340427) | 4^(2 * (n-1) * (k-1)) * Prod_{a=1..n-1} Prod_{b=1..k-1} (1 - sin(a * Pi/(2 * n))^2     * cos(b * Pi/(2 * k))^2)     | 1 |
-| [A340428](https://oeis.org/A340428) | 4^(2 * n * k)         * Prod_{a=1..n}   Prod_{b=1..k}   (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | 0 |
-| [A340430](https://oeis.org/A340430) | 4^(2 * n * k)         * Prod_{a=1..n}   Prod_{b=1..k}   (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | 0 |
-| [A340432](https://oeis.org/A340432) | 4^(2 * n * k)         * Prod_{a=1..n}   Prod_{b=1..k}   (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | 0 |
+| [A340427](https://oeis.org/A340427) | 4^(2 * (n-1) * (k-1)) * Prod_{a=1..n-1} Prod_{b=1..k-1} (1 - sin(a * Pi/(2 * n))^2     * sin(b * Pi/(2 * k))^2)     | (1,1) |
+| [A340427](https://oeis.org/A340427) | 4^(2 * (n-1) * (k-1)) * Prod_{a=1..n-1} Prod_{b=1..k-1} (1 - cos(a * Pi/(2 * n))^2     * cos(b * Pi/(2 * k))^2)     | (1,1) |
+| [A340427](https://oeis.org/A340427) | 4^(2 * (n-1) * (k-1)) * Prod_{a=1..n-1} Prod_{b=1..k-1} (1 - sin(a * Pi/(2 * n))^2     * cos(b * Pi/(2 * k))^2)     | (1,1) |
+| [A340428](https://oeis.org/A340428) | 4^(2 * n * k)         * Prod_{a=1..n}   Prod_{b=1..k}   (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | (0,0) |
+| [A340430](https://oeis.org/A340430) | 4^(2 * n * k)         * Prod_{a=1..n}   Prod_{b=1..k}   (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | (0,0) |
+| [A340432](https://oeis.org/A340432) | 4^(2 * n * k)         * Prod_{a=1..n}   Prod_{b=1..k}   (1 - sin(a * Pi/(2 * n + 1))^2 * sin(b * Pi/(2 * k + 1))^2) | (0,0) |
