@@ -61,8 +61,9 @@ Square array
 
 | Number | 式 | OFFSET (n,k) | 
 | ----- | ----- | ----- |
-| [A340560](https://oeis.org/A340560) |      Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/n)^2 + 4 * sin(b * Pi/k)^2)  | (1,1) |
-| [A340561](https://oeis.org/A340561) | sqrt(Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/n)^2 + 4 * cos(b * Pi/k)^2)) | (1,1) |
+| [A212796](https://oeis.org/A212796) | n * k * Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/n)^2 + 4 * sin(b * Pi/k)^2)  | (1,1) |
+| [A340560](https://oeis.org/A340560) |         Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/n)^2 + 4 * sin(b * Pi/k)^2)  | (1,1) |
+| [A340561](https://oeis.org/A340561) |    sqrt(Prod_{a=1..n-1} * Prod_{b=1..k-1} (4 * sin(a * Pi/n)^2 + 4 * cos(b * Pi/k)^2)) | (1,1) |
 
 | Number | 式 | OFFSET (n,k) | 
 | ----- | ----- | ----- |
