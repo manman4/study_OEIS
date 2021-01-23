@@ -18,4 +18,4 @@ diffchecker, FileMerge
 
 ## ブラウザ
 
-Mac とChromeでは図が崩れる時がある　Mac ではSafar
+Mac とChromeでは図が崩れる時がある　Mac ではSafari
