@@ -29,6 +29,15 @@ gp ファイル内でNを使わない方がいい。
 
 gp ファイル内でそのNを使っていることを避けるため
 
+ダメな例
+
+```PARI:ターミナル
+parisize = 8000000, primelimit = 500000
+? N=60;
+? \r /Users/xxx/Desktop/printN.gp 
+60
+? 
+```
 
 - G.f.:
 
