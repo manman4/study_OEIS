@@ -1,6 +1,16 @@
 # 注意書き
 
-試験的にコードをレポジトリOEIS_00〜OEIS_03に移行します。
+試験的にコードをレポジトリ
+
+[OEIS_00](https://github.com/manman4/OEIS_00) 
+
+[OEIS_01](https://github.com/manman4/OEIS_01) 
+
+[OEIS_02](https://github.com/manman4/OEIS_02)
+
+[OEIS_03](https://github.com/manman4/OEIS_03)
+
+に移行します。
 
 # PARI/GPによる代表的な例
 
