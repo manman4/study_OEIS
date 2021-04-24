@@ -1,10 +1,6 @@
 # sumdiv
 
-Lambert級数
-
-Sum_{k>=1} a(k) * x^k/(1 - x^k)
-
-っぽいもの
+Sum_{k>=1} a(k) * x^k/(1 - x^k) っぽいもの
 
 ## binomial(d+n/d-2, d-1)
 
