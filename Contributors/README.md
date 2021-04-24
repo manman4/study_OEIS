@@ -25,12 +25,12 @@
    - [Robert G. Wilson v](https://oeis.org/search?q=author%3ARobert+G.+Wilson+v)
 
    - [Gus wiseman](https://oeis.org/search?q=author%3AGus+wiseman)
-   
+
+   - [Ilya Gutkovskiy](https://oeis.org/search?q=author%3AIlya+Gutkovskiy)
+     
    - [Zak Seidov](https://oeis.org/search?q=author%3AZak+Seidov)
    
    - [Paul Barry](https://oeis.org/search?q=author%3APaul+Barry)
-
-   - [Ilya Gutkovskiy](https://oeis.org/search?q=author%3AIlya+Gutkovskiy)
    
    - [Eric W. Weisstein](https://oeis.org/search?q=author%3AEric+W.+Weisstein)
    
