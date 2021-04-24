@@ -6,7 +6,7 @@ Sum_{k>=1} a(k) * x^k/(1 - x^k)
 
 っぽいもの
 
-## x
+## binomial(d+n/d-2, d-1)
 
 | Number | a(n) | G.f. |
 | ----- | ----- | ----- | 
