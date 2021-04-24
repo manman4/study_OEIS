@@ -36,6 +36,8 @@
 
 - staircase polyomino
 
+- sumdiv
+
 - young tableaux
 
 その他
