@@ -1,5 +1,3 @@
-require 'prime'
-
 # Cf. A344138
 # a[0]=0
 def phi(n)
