@@ -72,3 +72,7 @@ M=100;
 v=v(M);
 for(n=0, M, write("C:\\Users\\○○\\bXXXXXX.txt", n, " ", polcoef(v, n)))
 ```
+
+# MAGMAによる計算
+
+オンライン　http://magma.maths.usyd.edu.au/calc/
