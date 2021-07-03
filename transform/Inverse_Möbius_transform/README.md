@@ -1,4 +1,4 @@
-# Inverse Moebius transform
+# Inverse Möbius transform
 
 a(n) = Sum_{d|n} b(d).
 
