@@ -52,6 +52,8 @@
 
    - [Vaclav Kotesovec](https://oeis.org/search?q=author%3AVaclav+Kotesovec)
    
+   - [Jaroslav Krizek](https://oeis.org/search?q=author%3aJaroslav%20Krizek)
+     
    - [Zhi-Wei Sun](https://oeis.org/search?q=author%3AZhi-Wei+Sun)
    
    - [Peter Luschny](https://oeis.org/search?q=author%3APeter+Luschny)
