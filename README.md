@@ -19,8 +19,12 @@
     Bell transform
     
     generalized Euler transform
+    
+    Inverse Möbius transform
 
     Möbius transform
+    
+    Stirling transform
     
 - eta_product
 
