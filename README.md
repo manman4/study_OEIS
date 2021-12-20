@@ -50,3 +50,6 @@
 
 - edit
 
+## 話題
+
+載っていない最も小さな数　20067　　　https://benwiederhake.github.io/oeis-funfacts/
