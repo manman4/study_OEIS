@@ -29,6 +29,8 @@
    - [Ilya Gutkovskiy](https://oeis.org/search?q=author%3AIlya+Gutkovskiy)
      
    - [Zak Seidov](https://oeis.org/search?q=author%3AZak+Seidov)
+
+   - [Seiichi Manyama](https://oeis.org/search?q=author%3ASeiichi+Manyama)
    
    - [Paul Barry](https://oeis.org/search?q=author%3APaul+Barry)
    
@@ -39,8 +41,6 @@
    - [Wolfdieter Lang](https://oeis.org/search?q=author%3AWolfdieter+Lang)
    
    - [Omar E. Pol](https://oeis.org/search?q=author%3AOmar+E.+Pol)
-
-   - [Seiichi Manyama](https://oeis.org/search?q=author%3ASeiichi+Manyama)
    
    - [T. D. Noe](https://oeis.org/search?q=author%3AT.+D.+Noe)
    

@@ -4,6 +4,18 @@
 
 2020/12/05 現在　Expansion of ～ ○○, G.f. ○○ ではなく Generating function Sum_{n >= 0} a(n)*x^n = ○○を推奨
 
+## 順番
+
+大体次の順にしている
+
+2^k (分子), k! (分子), binomial, Stirling, その他式
+
+# DATA
+
+## 存在しない時
+
+０でなく−１を推奨。0より-1の方が探しやすいから
+
 # b-file
 
 ## diff
