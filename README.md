@@ -50,12 +50,8 @@
 
 - edit
 
-<<<<<<< HEAD
-
-=======
 ## 話題
 
 載っていない最も小さな数　20067　　　https://benwiederhake.github.io/oeis-funfacts/
 
 images based on the parity of sequences in OEIS https://twitter.com/oeisTriangles
->>>>>>> main
