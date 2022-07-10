@@ -56,4 +56,5 @@
 
 images based on the parity of sequences in OEIS https://twitter.com/oeisTriangles
 
-oeisをpipでインストールできるが、https://github.com/JulienPalard/oeis　を見る限りそんなに多くは登録されていない
+oeisをpipでインストールできるが、https://github.com/JulienPalard/oeis　
+を見る限りそんなに多くは登録されていない
