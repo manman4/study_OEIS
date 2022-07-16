@@ -78,4 +78,6 @@
 
    - [Andrew Howroyd](https://oeis.org/search?q=author%3AAndrew+Howroyd)
    
+   - [Geoffrey Critzer](https://oeis.org/search?q=author%3AGeoffrey+Critzer)
+   
    - [Charles R Greathouse IV](https://oeis.org/search?q=author%3ACharles+R+Greathouse+IV)
