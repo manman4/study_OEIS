@@ -31,3 +31,14 @@ diffchecker, FileMerge
 ## ブラウザ
 
 Mac とChromeでは図が崩れる時がある　Mac ではSafari
+
+## 編集の作業
+
+* ネタ探し
+
+* 作成、編集、確認
+
+* 承認後内容確認、コード保管
+
+
+
