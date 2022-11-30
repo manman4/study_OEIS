@@ -103,6 +103,8 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A339119](https://oeis.org/A339119) | P_7 X P_n | 添字ズレなし | 
 | [A339120](https://oeis.org/A339120) | P_8 X P_n | 添字ズレなし | 
 | [A339121](https://oeis.org/A339121) | P_9 X P_n | 添字ズレなし | 
+| [A358707](https://oeis.org/A358707) | P_10 X P_n | 添字ズレなし | 
+| [A358785](https://oeis.org/A358785) | P_11 X P_n | 添字ズレなし | 
 | [A140517](https://oeis.org/A140517) | P_n X P_n | 添字ズレあり | 
 | [A339136](https://oeis.org/A339136) | C_3 X P_n | 添字ズレなし | 
 | [A339137](https://oeis.org/A339137) | C_4 X P_n | 添字ズレなし | 
