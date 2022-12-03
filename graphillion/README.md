@@ -23,6 +23,11 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A007341](https://oeis.org/A007341) | P_n X P_n | 添字ズレなし | 
 | [A212798](https://oeis.org/A212798) | C_3 X C_n | 添字ズレなし | 
 | [A212799](https://oeis.org/A212799) | C_4 X C_n | 添字ズレなし | 
+| [A358810](https://oeis.org/A358810) | C_5 X C_n | 添字ズレなし | 
+| [A358811](https://oeis.org/A358811) | C_6 X C_n | 添字ズレなし | 
+| [A358812](https://oeis.org/A358812) | C_7 X C_n | 添字ズレなし | 
+| [A358813](https://oeis.org/A358813) | C_8 X C_n | 添字ズレなし | 
+| [A358814](https://oeis.org/A358814) | C_9 X C_n | 添字ズレなし | 
 | [A358815](https://oeis.org/A358815) | C_10 X C_n | 添字ズレなし | 
 | [A212800](https://oeis.org/A212800) | C_n X C_n | 添字ズレなし | 
 | [A338100](https://oeis.org/A338100) | n X 2 king graph | 添字ズレなし | 
