@@ -72,6 +72,8 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A268894](https://oeis.org/A268894) | C_n X P_n | 添字ズレなし | 
 | [A339797](https://oeis.org/A339797) | C_3 X C_n | 添字ズレなし | 
 | [A339798](https://oeis.org/A339798) | C_4 X C_n | 添字ズレなし | 
+| [A358868](https://oeis.org/A358868) | C_5 X C_n | 添字ズレなし | 
+| [A358870](https://oeis.org/A358870) | C_6 X C_n | 添字ズレなし | 
 | [A268838](https://oeis.org/A268838) | C_n X C_n | 添字ズレなし | 
 | [A339760](https://oeis.org/A339760) | n X 2 king graph | 添字ズレなし | 
 | [A339761](https://oeis.org/A339761) | n X 3 king graph | 添字ズレなし | 
