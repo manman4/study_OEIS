@@ -82,6 +82,7 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A339761](https://oeis.org/A339761) | n X 3 king graph | 添字ズレなし | 
 | [A339762](https://oeis.org/A339762) | n X 4 king graph | 添字ズレなし | 
 | [A339763](https://oeis.org/A339763) | n X 5 king graph | 添字ズレなし |
+| [A308129](https://oeis.org/A308129) | n X n king graph | 添字ズレなし |
 | [A308144](https://oeis.org/A308144) | n-triangular grid graph | 添字ズレなし | 
 
 ## (undirected) cycles
