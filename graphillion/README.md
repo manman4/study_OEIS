@@ -21,6 +21,7 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A334004](https://oeis.org/A334004) | P_9 X P_n | 添字ズレなし | 
 | [A334005](https://oeis.org/A334005) | P_10 X P_n | 添字ズレなし | 
 | [A007341](https://oeis.org/A007341) | P_n X P_n | 添字ズレなし | 
+| [A174089](https://oeis.org/A174089) | C_11 X P_n | 添字ズレなし | 
 | [A212798](https://oeis.org/A212798) | C_3 X C_n | 添字ズレなし | 
 | [A212799](https://oeis.org/A212799) | C_4 X C_n | 添字ズレなし | 
 | [A358810](https://oeis.org/A358810) | C_5 X C_n | 添字ズレなし | 
