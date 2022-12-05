@@ -63,6 +63,7 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A339750](https://oeis.org/A339750) | n X 2 king graph | 添字ズレなし | 
 | [A339751](https://oeis.org/A339751) | n X 3 king graph | 添字ズレなし | 
 | [A288033](https://oeis.org/A288033) | n X n king graph | 添字ズレなし | 
+| [A288148](https://oeis.org/A288148) | n-triangular grid graph | 添字ズレなし | 
 
 ## Hamiltonian paths
 
