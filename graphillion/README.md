@@ -52,6 +52,7 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A338960](https://oeis.org/A338960) | C_4 X P_n | 添字ズレなし | 
 | [A338961](https://oeis.org/A338961) | C_5 X P_n | 添字ズレなし | 
 | [A338962](https://oeis.org/A338962) | C_6 X P_n | 添字ズレなし | 
+| [A338963](https://oeis.org/A338963) | C_n X P_n | 添字ズレなし | 
 | [A339795](https://oeis.org/A339795) | C_3 X C_n | 添字ズレなし | 
 | [A339796](https://oeis.org/A339796) | C_4 X C_n | 添字ズレなし | 
 | [A358869](https://oeis.org/A358869) | C_5 X C_n | 添字ズレなし | 
