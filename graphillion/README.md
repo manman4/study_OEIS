@@ -83,35 +83,6 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A339763](https://oeis.org/A339763) | n X 5 king graph | 添字ズレなし |
 | [A308144](https://oeis.org/A308144) | n-triangular grid graph | 添字ズレなし | 
 
-## Hamiltonian cycles
-
-| Number | Graph | 摘要 |
-| ----- | ----- | ----- | 
-| [A006864](https://oeis.org/A006864) | P_4 X P_n | 添字ズレなし | 
-| [A145401](https://oeis.org/A145401) | P_6 X P_n | 添字ズレなし | 
-| [A145418](https://oeis.org/A145418) | P_8 X P_n | 添字ズレなし | 
-| [A180504](https://oeis.org/A180504) | P_10 X P_n | 添字ズレなし | 
-| [A003763](https://oeis.org/A003763) | P_{2n} X P_{2n} | 添字ズレなし | 
-| [A003699](https://oeis.org/A003699) | C_4 X P_n | 添字ズレなし | 
-| [A003731](https://oeis.org/A003731) | C_5 X P_n | 添字ズレなし | 
-| [A180582](https://oeis.org/A180582) | C_6 X P_n | 添字ズレなし | 
-| [A180583](https://oeis.org/A180583) | C_7 X P_n | 添字ズレなし | 
-| [A180584](https://oeis.org/A180584) | C_8 X P_n | 添字ズレなし | 
-| [A180585](https://oeis.org/A180585) | C_9 X P_n | 添字ズレなし | 
-| [A180586](https://oeis.org/A180586) | C_10 X P_n | 添字ズレなし | 
-| [A180587](https://oeis.org/A180587) | C_11 X P_n | 添字ズレなし | 
-| [A180588](https://oeis.org/A180588) | C_12 X P_n | 添字ズレなし | 
-| [A222197](https://oeis.org/A222197) | C_n X P_n | 添字ズレなし | 
-| [A194952](https://oeis.org/A194952) | C_3 X C_n | 添字ズレなし | 
-| [A216588](https://oeis.org/A216588) | C_4 X C_n | 添字ズレなし | 
-| [A358853](https://oeis.org/A358853) | C_5 X C_n | 添字ズレなし | 
-| [A222199](https://oeis.org/A222199) | C_n X C_n | 添字ズレなし | 
-| [A339200](https://oeis.org/A339200) | n X 3 king graph | 添字ズレなし | 
-| [A339201](https://oeis.org/A339201) | n X 4 king graph | 添字ズレなし | 
-| [A339202](https://oeis.org/A339202) | n X 5 king graph | 添字ズレなし | 
-| [A140519](https://oeis.org/A140519) | n X n king graph | 添字ズレなし | 
-| [A112676](https://oeis.org/A112676) | n-triangular grid graph | 添字ズレあり | 
-
 ## (undirected) cycles
 
 | Number | Graph | 摘要 |
@@ -143,3 +114,34 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A234622](https://oeis.org/A234622) | n X n king graph | 添字ズレなし | 
 | [A266513](https://oeis.org/A266513) | n-triangular grid graph | 添字ズレあり | 
 | [A234620](https://oeis.org/A234620) | n X n X n grid | 添字ズレなし | 
+
+## Hamiltonian cycles
+
+| Number | Graph | 摘要 |
+| ----- | ----- | ----- | 
+| [A006864](https://oeis.org/A006864) | P_4 X P_n | 添字ズレなし | 
+| [A145401](https://oeis.org/A145401) | P_6 X P_n | 添字ズレなし | 
+| [A145418](https://oeis.org/A145418) | P_8 X P_n | 添字ズレなし | 
+| [A180504](https://oeis.org/A180504) | P_10 X P_n | 添字ズレなし | 
+| [A003763](https://oeis.org/A003763) | P_{2n} X P_{2n} | 添字ズレなし | 
+| [A003699](https://oeis.org/A003699) | C_4 X P_n | 添字ズレなし | 
+| [A003731](https://oeis.org/A003731) | C_5 X P_n | 添字ズレなし | 
+| [A180582](https://oeis.org/A180582) | C_6 X P_n | 添字ズレなし | 
+| [A180583](https://oeis.org/A180583) | C_7 X P_n | 添字ズレなし | 
+| [A180584](https://oeis.org/A180584) | C_8 X P_n | 添字ズレなし | 
+| [A180585](https://oeis.org/A180585) | C_9 X P_n | 添字ズレなし | 
+| [A180586](https://oeis.org/A180586) | C_10 X P_n | 添字ズレなし | 
+| [A180587](https://oeis.org/A180587) | C_11 X P_n | 添字ズレなし | 
+| [A180588](https://oeis.org/A180588) | C_12 X P_n | 添字ズレなし | 
+| [A222197](https://oeis.org/A222197) | C_n X P_n | 添字ズレなし | 
+| [A194952](https://oeis.org/A194952) | C_3 X C_n | 添字ズレなし | 
+| [A216588](https://oeis.org/A216588) | C_4 X C_n | 添字ズレなし | 
+| [A358853](https://oeis.org/A358853) | C_5 X C_n | 添字ズレなし | 
+| [A222199](https://oeis.org/A222199) | C_n X C_n | 添字ズレなし | 
+| [A339200](https://oeis.org/A339200) | n X 3 king graph | 添字ズレなし | 
+| [A339201](https://oeis.org/A339201) | n X 4 king graph | 添字ズレなし | 
+| [A339202](https://oeis.org/A339202) | n X 5 king graph | 添字ズレなし | 
+| [A140519](https://oeis.org/A140519) | n X n king graph | 添字ズレなし | 
+| [A112676](https://oeis.org/A112676) | n-triangular grid graph | 添字ズレあり | 
+
+
