@@ -21,6 +21,7 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A334004](https://oeis.org/A334004) | P_9 X P_n | 添字ズレなし | 
 | [A334005](https://oeis.org/A334005) | P_10 X P_n | 添字ズレなし | 
 | [A007341](https://oeis.org/A007341) | P_n X P_n | 添字ズレなし | 
+| [A210813](https://oeis.org/A210813) | C_10 X P_n | 添字ズレなし | 
 | [A174089](https://oeis.org/A174089) | C_11 X P_n | 添字ズレなし | 
 | [A252767](https://oeis.org/A252767) | C_n X P_n | 添字ズレなし | 
 | [A212798](https://oeis.org/A212798) | C_3 X C_n | 添字ズレなし | 
@@ -39,7 +40,6 @@ P_n はtutorial を使う方が楽だが、他との比較のため なるべく
 | [A288957](https://oeis.org/A288957) | n X n king graph | 添字ズレなし | 
 | [A174579](https://oeis.org/A174579) | n-triangular grid graph | 添字ズレなし | 
 | [A071763](https://oeis.org/A071763) | n X n X n grid | 添字ズレなし | 
-
 
 ## (undirected) paths
 
