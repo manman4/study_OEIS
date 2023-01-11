@@ -11,6 +11,7 @@
 | [A055225](https://oeis.org/A055225) | Sum_{d&#124;n} d^(n/d)                    | Sum_{k>=1} k       * x^k/(1 - k * x^k) | 
 | [A078308](https://oeis.org/A078308) | Sum_{d&#124;n} d^(n/d + 1)                | Sum_{k>=1} k^2     * x^k/(1 - k * x^k) | 
 | [A062796](https://oeis.org/A062796) | Sum_{d&#124;n} d^d                        | Sum_{k>=1} k^k     * x^k/(1 -     x^k) | 
+| [A353009](https://oeis.org/A353009) | Sum_{k=0..floor(n/2)} (n-2 * k)^(n-2 * k) | Sum_{k>=0} k^k     * x^k/(1 -     x^2) | 
 | [A359701](https://oeis.org/A359701) | Sum_{d&#124;n} d^(d + n/d - 2)            | Sum_{k>=1} k^(k-1) * x^k/(1 - k * x^k) | 
 | [A359700](https://oeis.org/A359700) | Sum_{d&#124;n} d^(d + n/d - 1)            | Sum_{k>=1} k^k     * x^k/(1 - k * x^k) | 
 | [A294956](https://oeis.org/A294956) | Sum_{d&#124;n} d^(d + n/d)                | Sum_{k>=1} k^(k+1) * x^k/(1 - k * x^k) | 
