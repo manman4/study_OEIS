@@ -6,6 +6,8 @@
 | Number | a(n) | G.f. | 
 | ----- | ----- | ----- | 
 | [A087909](https://oeis.org/A087909) | Sum_{d&#124;n} d^(n/d - 1)                | Sum_{k>=1}           x^k/(1 - k * x^k) | 
+| [A352944](https://oeis.org/A352944) | Sum_{k=0..floor(n/2)} (n-2 * k)^k         | Sum_{k>=0}           x^k/(1 - k * x^2) | 
+| [A352946](https://oeis.org/A352946) | Sum_{k=0..floor(n/3)} (n-3 * k)^k         | Sum_{k>=0}           x^k/(1 - k * x^3) | 
 | [A055225](https://oeis.org/A055225) | Sum_{d&#124;n} d^(n/d)                    | Sum_{k>=1} k       * x^k/(1 - k * x^k) | 
 | [A078308](https://oeis.org/A078308) | Sum_{d&#124;n} d^(n/d + 1)                | Sum_{k>=1} k^2     * x^k/(1 - k * x^k) | 
 | [A062796](https://oeis.org/A062796) | Sum_{d&#124;n} d^d                        | Sum_{k>=1} k^k     * x^k/(1 -     x^k) | 
