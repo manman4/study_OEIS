@@ -1,10 +1,11 @@
 # sumdiv
 
-## Sum_{k>=1} a(k) * x^k/(1 - x^k) っぽいもの
+## Sum_{k>=1} a(k) * x^k/(1 - x^k)　っぽいもの
 
 
 | Number | a(n) | G.f. | 
 | ----- | ----- | ----- | 
+| [A062796](https://oeis.org/A062796) | Sum_{d&#124;n} d^d             | Sum_{k>=1} k^k     * x^k/(1 -     x^k) | 
 | [A359701](https://oeis.org/A359701) | Sum_{d&#124;n} d^(d + n/d - 2) | Sum_{k>=1} k^(k-1) * x^k/(1 - k * x^k) | 
 | [A359700](https://oeis.org/A359700) | Sum_{d&#124;n} d^(d + n/d - 1) | Sum_{k>=1} k^k     * x^k/(1 - k * x^k) | 
 | [A294956](https://oeis.org/A294956) | Sum_{d&#124;n} d^(d + n/d)     | Sum_{k>=1} k^(k+1) * x^k/(1 - k * x^k) | 
