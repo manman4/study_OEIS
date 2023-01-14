@@ -34,6 +34,7 @@
 | [A352082](https://oeis.org/A352082) | Sum_{k=0..floor(n/2)} (n-2 * k)^n         | Sum_{k>=0} k^k         * x^k/(1 - k^2       * x^2) | 
 | [A353015](https://oeis.org/A353015) | Sum_{k=0..floor(n/3)} (n-3 * k)^n         | Sum_{k>=0} k^k         * x^k/(1 - k^3       * x^3) | 
 | [A308570](https://oeis.org/A308570) | Sum_{d&#124;n} d^(2 * n)                  | Sum_{k>=1} k^(2 * k)   * x^k/(1 - k^(2 * k) * x^k) | 
+| [A294645](https://oeis.org/A294645) | Sum_{d&#124;n} d^(n + 1)                  | Sum_{k>=1} k^(k+1)     * x^k/(1 - k^k       * x^k) | 
 
 
 ## binomial(d+n/d-2, d-1)
