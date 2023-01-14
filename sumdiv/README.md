@@ -10,6 +10,7 @@
 | [A352946](https://oeis.org/A352946) | Sum_{k=0..floor(n/3)} (n-3 * k)^k         | Sum_{k>=0}             x^k/(1 - k   * x^3) | 
 | [A308688](https://oeis.org/A308688) | Sum_{d&#124;n} d^(2 * n/d - 1)            | Sum_{k>=1} k         * x^k/(1 - k^2 * x^k) | 
 | [A055225](https://oeis.org/A055225) | Sum_{d&#124;n} d^(n/d)                    | Sum_{k>=1} k         * x^k/(1 - k   * x^k) | 
+| [A073705](https://oeis.org/A073705) | Sum_{d&#124;n} d^(2 * n/d)                | Sum_{k>=1} k^2       * x^k/(1 - k^2 * x^k) | 
 | [A078308](https://oeis.org/A078308) | Sum_{d&#124;n} d^(n/d + 1)                | Sum_{k>=1} k^2       * x^k/(1 - k   * x^k) | 
 | [A062796](https://oeis.org/A062796) | Sum_{d&#124;n} d^d                        | Sum_{k>=1} k^k       * x^k/(1 -       x^k) | 
 | [A353009](https://oeis.org/A353009) | Sum_{k=0..floor(n/2)} (n-2 * k)^(n-2 * k) | Sum_{k>=0} k^k       * x^k/(1 -       x^2) | 
