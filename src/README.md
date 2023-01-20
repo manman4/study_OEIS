@@ -1,6 +1,6 @@
 # 注意書き
 
-試験的にコードをレポジトリ
+コードをレポジトリ
 
 [OEIS_00](https://github.com/manman4/OEIS_00) 
 
