@@ -12,6 +12,20 @@
 
 に移行します。
 
+# PARI/GPについて
+
+https://github.com/manman4/lang/tree/main/PARI
+
+# 計算の注意
+
+```PARI:G.f.:
+
+my(N=66, x='x+O('x^N)); 
+```
+
+で計算結果がN個以上出ても計算上余分な桁を用意しただけの場合があるので、余分な桁な計算結果は使わない。
+
+
 # PARI/GPによる代表的な例
 
 PROG
