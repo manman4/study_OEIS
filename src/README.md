@@ -16,7 +16,7 @@
 
 https://github.com/manman4/lang/tree/main/PARI
 
-# 計算の注意
+## 計算の注意
 
 ```PARI:G.f.:
 
