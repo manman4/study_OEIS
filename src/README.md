@@ -19,7 +19,6 @@ https://github.com/manman4/lang/tree/main/PARI
 ## 計算の注意
 
 ```PARI:G.f.:
-
 my(N=66, x='x+O('x^N)); 
 ```
 
