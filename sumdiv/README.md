@@ -63,6 +63,12 @@
 | [A338662](https://oeis.org/A338662) | Sum_{d&#124;n} (n/d)^d binomial(d+n/d-1, d) | -------------------------------- | Sum_{k>=1} (1/(1- k *  x^k)^k - 1) |
 | [A338663](https://oeis.org/A338663) | Sum_{d&#124;n} (n/d)^n binomial(d+n/d-1, d) | -------------------------------- | Sum_{k>=1} (1/(1-(k * x)^k)^k - 1) |
 
+## binomial(d, n/d-1)
+
+| Number | a(n) | G.f. | 
+| ----- | ----- | ----- | 
+| [A360726](https://oeis.org/A360726) | Sum_{d&#124;n} d^d   * binomial(d, n/d) | Sum_{k>=1} (k * x * (1 + x^k))^k | 
+
 ## binomial(d, n/d)
 
 | Number | a(n) | G.f. | 
