@@ -67,6 +67,7 @@
 
 | Number | a(n) | G.f. | 
 | ----- | ----- | ----- | 
+| [A318636](https://oeis.org/A318636) | Sum_{d&#124;n}            binomial(d, n/d) | Sum_{k>=1}        ((1 +      x^k )^k - 1) | 
 | [A338694](https://oeis.org/A338694) | Sum_{d&#124;n}  d^d     * binomial(d, n/d) | Sum_{k>=1} k^k *  ((1 +      x^k )^k - 1) | 
 | [A327238](https://oeis.org/A327238) | Sum_{d&#124;n}  d^(n/d) * binomial(d, n/d) | Sum_{k>=1}        ((1 +  k * x^k )^k - 1) | 
 | [A338685](https://oeis.org/A338685) | Sum_{d&#124;n}  d^n     * binomial(d, n/d) | Sum_{k>=1}        ((1 + (k * x)^k)^k - 1) | 
