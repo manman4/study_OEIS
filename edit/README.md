@@ -24,6 +24,12 @@ http://oeis.org/wiki/Offsets#Offset_1_.28Lists.29_.28Functions_that_are_defined_
 
 # b-file
 
+# PROG
+
+The purpose of code is purely practical, so everybody wants just the best.
+
+自分のソースコード保存では、上記以外も保存する。
+
 ## diff
 
 OSがwindowsの頃
@@ -36,7 +42,7 @@ diffchecker, FileMerge
 
 ## ブラウザ
 
-Mac とChromeでは図が崩れる時がある　Mac ではSafari
+Mac とChromeでは図が崩れる時がある　Mac ではSafari or Firefox
 
 ## 編集の作業
 
