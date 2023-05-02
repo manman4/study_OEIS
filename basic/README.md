@@ -2,6 +2,8 @@
 
 ## 二項係数
 
+binomial(r,k) = (-1)^k * binomial(k-r-1,k)
+
 
 ```PARI
 -4 | 1 -4 10 -20
