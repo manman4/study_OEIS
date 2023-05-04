@@ -2,6 +2,9 @@
 
 W(A) / A = exp( - W(A) )
 
+A / W(A) = exp(   W(A) )
+
+
 | Number | e.g.f.  | 
 | ----- | ----- | 
 | [A361916](https://oeis.org/A361916) | LambertW(x^2)/x^2 * exp(x) | 
