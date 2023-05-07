@@ -2,7 +2,7 @@
 
 ## 数学記号
 
-* != of <>  not equal
+* != or <>  not equal
 * [n]  1からnの配列
 
 ## G.f.
