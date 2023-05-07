@@ -30,7 +30,7 @@ The purpose of code is purely practical, so everybody wants just the best.
 
 自分のソースコード保存では、上記以外も保存する。
 
-## diff
+# diff
 
 OSがwindowsの頃
 
@@ -40,11 +40,11 @@ OSがLinuxやmacになってから
 
 diffchecker, FileMerge
 
-## ブラウザ
+# ブラウザ
 
 Mac とChromeでは図が崩れる時がある　Mac ではSafari or Firefox
 
-## 編集の作業
+# 編集の作業
 
 1. ネタ探し
 
