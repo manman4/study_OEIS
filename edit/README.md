@@ -15,6 +15,12 @@
 
 2^k (分子), k! (分子), binomial, Stirling, その他式
 
+## Square array
+
+A(n,k)ではなくT(n,k) ?
+
+Cf. https://oeis.org/A364113
+
 # DATA
 
 ## 存在しない時
