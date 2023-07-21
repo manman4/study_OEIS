@@ -17,3 +17,4 @@ binomial(r,k) = (-1)^k * binomial(k-r-1,k)
 ```
 
 （参考）　コンピュータの数学　P.161
+
