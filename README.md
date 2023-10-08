@@ -46,8 +46,6 @@
 
 その他
 
-- Contributors
-
 - edit
 
 ## 話題
