@@ -66,4 +66,3 @@ https://github.com/JulienPalard/oeis
 
 を見る限りそんなに多くは登録されていない
 
-
