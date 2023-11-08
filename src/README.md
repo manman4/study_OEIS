@@ -95,3 +95,15 @@ for(n=0, M, write("C:\\Users\\○○\\bXXXXXX.txt", n, " ", polcoef(v, n)))
 # MAGMAによる計算
 
 オンライン　http://magma.maths.usyd.edu.au/calc/
+
+# Singularによる計算
+
+## install
+
+https://www.singular.uni-kl.de/index.php/singular-download/install-os-x.html
+
+Macなら　brew install Singular　でOK
+
+## 使い方
+
+sage同様　ターミナルでsingularと打つだけで良い。
