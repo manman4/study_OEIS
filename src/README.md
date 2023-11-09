@@ -14,7 +14,7 @@
 
 # PARI/GPについて
 
-言語の仕様はこちらのリポジトリで整理
+言語の仕様等はこちらのリポジトリで整理
 
 https://github.com/manman4/lang/tree/main/PARI
 
@@ -100,18 +100,6 @@ for(n=0, M, write("C:\\Users\\○○\\bXXXXXX.txt", n, " ", polcoef(v, n)))
 
 # Singularによる計算
 
-## install
+言語の仕様等はこちらのリポジトリで整理
 
-https://www.singular.uni-kl.de/index.php/singular-download/install-os-x.html
-
-Macなら　brew install Singular　でOK
-
-## 使い方
-
-### 対話形式
-
-sage同様　ターミナルでsingularと打つだけで良い。
-
-### ファイルから
-
-singular xxx.sing でOK
+https://github.com/manman4/lang/tree/main/Singular
