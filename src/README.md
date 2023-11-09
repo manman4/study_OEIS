@@ -14,6 +14,8 @@
 
 # PARI/GPについて
 
+言語の仕様はこちらのリポジトリで整理
+
 https://github.com/manman4/lang/tree/main/PARI
 
 ## 計算の注意
