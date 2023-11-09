@@ -98,6 +98,12 @@ for(n=0, M, write("C:\\Users\\○○\\bXXXXXX.txt", n, " ", polcoef(v, n)))
 
 オンライン　http://magma.maths.usyd.edu.au/calc/
 
+# SageMathによる計算
+
+言語の仕様等はこちらのリポジトリで整理
+
+https://github.com/manman4/lang/tree/main/SageMath
+
 # Singularによる計算
 
 言語の仕様等はこちらのリポジトリで整理
