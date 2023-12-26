@@ -45,6 +45,15 @@ The purpose of code is purely practical, so everybody wants just the best.
 
 https://github.com/manman4/study_OEIS/tree/main/src#readme
 
+## PARI
+
+### 関数は基本小文字から
+
+```PARI:func
+a354339(n) = n!*sum(k=1, n, sumdiv(k, d, 1/(d*(k/d)^d))/(n-k)!);
+a_vector(n) = my(v=vector(n+1)); v[1]=1; for(i=1, n, v[i+1]=sum(j=1, i, a354339(j)*binomial(i-1, j-1)*v[i-j+1])); v;
+```
+
 # diff
 
 OSがwindowsの頃
