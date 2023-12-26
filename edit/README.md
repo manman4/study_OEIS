@@ -41,6 +41,10 @@ The purpose of code is purely practical, so everybody wants just the best.
 
 自分のソースコード保存では、上記以外も保存する。
 
+以下も参照のこと。
+
+https://github.com/manman4/study_OEIS/tree/main/src#readme
+
 # diff
 
 OSがwindowsの頃
