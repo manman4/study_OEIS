@@ -1,3 +1,9 @@
+## EDIT
+
+編集の注意について
+
+https://oeis.org/wiki/AVOID_INTERFERING_EDITS
+
 ## Title
 
 ### 数学記号
