@@ -1,41 +1,41 @@
-# Title
+## Title
 
-## 数学記号
+### 数学記号
 
 * != or <>  not equal
 * [n]  1からnの配列
 
-## G.f.
+### G.f.
 
 2020/12/05 現在　Expansion of ～ ○○, G.f. ○○ ではなく Generating function Sum_{n >= 0} a(n)*x^n = ○○を推奨
 
-## 順番
+### 順番
 
 大体次の順にしている
 
 2^k (分子), k! (分子), binomial, Stirling, その他式
 
-## Square array
+### Square array
 
 A(n,k)ではなくT(n,k) ?
 
 Cf. https://oeis.org/A364113
 
-# DATA
+## DATA
 
-## 存在しない時
+### 存在しない時
 
 ０でなく−１を推奨。0より-1の方が探しやすいから
 
-# OFFSET
+## OFFSET
 
 最近までリストは1から始まるが原則だったが、最近変更された。
 
 http://oeis.org/wiki/Offsets#Offset_1_.28Lists.29_.28Functions_that_are_defined_for_all_positive_integers.29
 
-# b-file
+## b-file
 
-# PROG
+## PROG
 
 The purpose of code is purely practical, so everybody wants just the best.
 
@@ -45,16 +45,16 @@ The purpose of code is purely practical, so everybody wants just the best.
 
 https://github.com/manman4/study_OEIS/tree/main/src#readme
 
-## PARI
+### PARI
 
-### 関数は基本小文字から
+#### 関数は基本小文字から
 
 ```PARI:func
 a354339(n) = n!*sum(k=1, n, sumdiv(k, d, 1/(d*(k/d)^d))/(n-k)!);
 a_vector(n) = my(v=vector(n+1)); v[1]=1; for(i=1, n, v[i+1]=sum(j=1, i, a354339(j)*binomial(i-1, j-1)*v[i-j+1])); v;
 ```
 
-# diff
+## diff
 
 OSがwindowsの頃
 
@@ -64,11 +64,11 @@ OSがLinuxやmacになってから
 
 diffchecker, FileMerge
 
-# ブラウザ
+## ブラウザ
 
 Mac とChromeでは図が崩れる時がある　Mac ではSafari or Firefox
 
-# 編集の作業
+## 編集の作業
 
 1. ネタ探し
 
