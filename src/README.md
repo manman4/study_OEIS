@@ -109,3 +109,9 @@ https://github.com/manman4/lang/tree/main/SageMath
 言語の仕様等はこちらのリポジトリで整理
 
 https://github.com/manman4/lang/tree/main/Singular
+
+# Maximaによる計算
+
+言語の仕様等はこちらのリポジトリで整理
+
+https://github.com/manman4/lang/tree/main/Maxima
