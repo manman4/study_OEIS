@@ -1,4 +1,4 @@
-# Seies Reversion
+# Series Reversion
 
 ## (1/x) * Series_Reversion( f(x) )
 
