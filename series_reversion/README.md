@@ -20,6 +20,7 @@ Offset の違いは無視する。
 | [A368966](https://oeis.org/A368966) | x * (1-x)   * (1-x-x^3)^2 |
 | [A368967](https://oeis.org/A368967) | x * (1-x)^2 * (1-x-x^2)^2 |
 | [A368968](https://oeis.org/A368968) | x * (1-x)^2 * (1-x-x^3)^2 |
+| [A108623](https://oeis.org/A108623) | x * (1-x)   / (1-x-x^2)   |
 | [A243157](https://oeis.org/A243157) | x * (1-x)   / (1-x-x^3)   |
 | [A366081](https://oeis.org/A366081) | x * (1-x)^2 / (1-x-x^2)   |
 | [A049133](https://oeis.org/A049133) | x * (1-x)^2 / (1-x-x^3)   |
