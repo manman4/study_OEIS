@@ -7,6 +7,7 @@ Offset の違いは無視する。
 | 番号 | f(x) |
 |----- | ----- | 
 | [A046736](https://oeis.org/A046736) | x / (1-x)   * (1-x-x^2)   |
+| [A054514](https://oeis.org/A054514) | x / (1-x)   * (1-x-x^3)   |
 | [A001002](https://oeis.org/A001002) | x *           (1-x-x^2)   |
 | [A049140](https://oeis.org/A049140) | x *           (1-x-x^3)   |
 | [A368961](https://oeis.org/A368961) | x *           (1-x-x^2)^2 |
