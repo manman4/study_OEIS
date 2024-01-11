@@ -9,6 +9,7 @@ Offset の違いは無視する。
 | [A046736](https://oeis.org/A046736) | x / (1-x)   * (1-x-x^2)   |
 | [A054514](https://oeis.org/A054514) | x / (1-x)   * (1-x-x^3)   |
 | [A215342](https://oeis.org/A215342) | x / (1-x)   * (1-x-x^4)   |
+| [A366112](https://oeis.org/A366112) | x / (1-x)   * (1-x-x^5)   |
 | [A001002](https://oeis.org/A001002) | x *           (1-x-x^2)   |
 | [A049140](https://oeis.org/A049140) | x *           (1-x-x^3)   |
 | [A368961](https://oeis.org/A368961) | x *           (1-x-x^2)^2 |
