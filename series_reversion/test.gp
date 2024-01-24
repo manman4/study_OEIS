@@ -35,7 +35,7 @@ print1("done");
 
 
 \\ 4) x / (1-x)^u * (1-x-x^s)^t  
-\\ 実質的に1)と同じ
+\\ 実質的に2)と同じ
 \\ Cf. A369486
 
 a(n, s, t, u) = sum(k=0, n\s, binomial(t*(n+1)+k-1, k)*binomial((t-u+1)*(n+1)-(s-1)*k-2, n-s*k))/(n+1);
