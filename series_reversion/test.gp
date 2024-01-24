@@ -23,6 +23,7 @@ print1("done");
 
 
 \\ 3) x * (1-x)^u / (1-x+x^s)^t
+\\ 実質的に1)と同じ
 \\ Cf. A369229
 
 a(n, s, t, u) = sum(k=0, n\s, binomial(t*(n+1), k)*binomial((u-t+1)*(n+1)-(s-1)*k-2, n-s*k))/(n+1);
