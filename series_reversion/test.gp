@@ -48,7 +48,7 @@ for(s=1, 10, for(t=-10, 10, for(u=-20, 20, for(n=0, 20, if(a(n, s, t, u)!=b(n, s
 print1("done");
 
 
-\\ x / (1+x)^u / (1+x+x^s)^t
+\\ 5) x / (1+x)^u / (1+x+x^s)^t
 \\ Cf. A369477
 
 a(n, s, t, u) = sum(k=0, n\s, binomial(t*(n+1), k)*binomial((t+u)*(n+1)-k, n-s*k))/(n+1);
@@ -63,24 +63,24 @@ print1("done");
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
-\\ x * (1-x)^u / (1+x^s)^t
-\\ Cf. A369262
-
-a(n, s, t, u) = sum(k=0, n\s, binomial(t*(n+1), k)*binomial((u+1)*(n+1)-s*k-2, n-s*k))/(n+1);
-
-b(n, s, t, u) = my(x='x+O('x^(n+2))); polcoef(serreverse(x*(1-x)^u/(1+x^s)^t)/x, n);
-
-for(s=1, 10, for(t=-10, 10, for(u=-20, 20, for(n=0, 20, if(a(n, s, t, u)!=b(n, s, t, u), print1([n, s, t, u], ", "))))));
-
-print1("done");
-
-
 \\ x * (1-x)^u * (1-x^s)^t
 \\ Cf. A369296
 
 a(n, s, t, u) = sum(k=0, n\s, binomial(t*(n+1)+k-1, k)*binomial((u+1)*(n+1)-s*k-2, n-s*k))/(n+1);
 
 b(n, s, t, u) = my(x='x+O('x^(n+2))); polcoef(serreverse(x*(1-x)^u*(1-x^s)^t)/x, n);
+
+for(s=1, 10, for(t=-10, 10, for(u=-20, 20, for(n=0, 20, if(a(n, s, t, u)!=b(n, s, t, u), print1([n, s, t, u], ", "))))));
+
+print1("done");
+
+
+\\ x * (1-x)^u / (1+x^s)^t
+\\ Cf. A369262
+
+a(n, s, t, u) = sum(k=0, n\s, binomial(t*(n+1), k)*binomial((u+1)*(n+1)-s*k-2, n-s*k))/(n+1);
+
+b(n, s, t, u) = my(x='x+O('x^(n+2))); polcoef(serreverse(x*(1-x)^u/(1+x^s)^t)/x, n);
 
 for(s=1, 10, for(t=-10, 10, for(u=-20, 20, for(n=0, 20, if(a(n, s, t, u)!=b(n, s, t, u), print1([n, s, t, u], ", "))))));
 
@@ -109,5 +109,3 @@ b(n, s, t, u) = my(x='x+O('x^(n+2))); polcoef(serreverse(x/((1+x)^u*(1+x^s)^t))/
 for(s=1, 10, for(t=-10, 10, for(u=-20, 20, for(n=0, 20, if(a(n, s, t, u)!=b(n, s, t, u), print1([n, s, t, u], ", "))))));
 
 print1("done");
-
-
