@@ -21,7 +21,7 @@ binomial(r,k) = (-1)^k * binomial(k-r-1,k)
 
 ## 形式的べき級数(FPS)
 
-競プロでFPSで通じている。
+競プロではFPSで通じている。
 
 とりあえず、この記事を理解すべき。　https://trap.jp/post/1657/
 
@@ -32,4 +32,8 @@ binomial(r,k) = (-1)^k * binomial(k-r-1,k)
 実装例
 
 https://manchanr6.blogspot.com/2023/10/231001.html
+
+より詳しくはこちらで議論（実装）する予定
+
+https://github.com/manman4/study_OEIS/tree/main/linear
 
