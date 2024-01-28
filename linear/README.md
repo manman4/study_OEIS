@@ -7,4 +7,6 @@
 
 ### kitamasa法絡み
 
+P(x)/Q(x)
+
 https://nyaannyaan.github.io/library/fps/kitamasa.hpp.html
