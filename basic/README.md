@@ -29,3 +29,7 @@ binomial(r,k) = (-1)^k * binomial(k-r-1,k)
 
 母関数を 1−ax−bx^2 +⋯ で割ることは、もらう DP A[n] += A[n - 1] * a + A[n - 2] * b + … を計算することに対応する。
 
+実装例
+
+https://manchanr6.blogspot.com/2023/10/231001.html
+
