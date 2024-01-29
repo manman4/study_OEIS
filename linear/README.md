@@ -13,6 +13,10 @@ https://github.com/manman4/study_OEIS/tree/main/basic
 
 ### kitamasa法絡み
 
+やさしい解説
+
+https://qiita.com/flour/items/1390b1daedfec545bc94
+
 P(x)/Q(x)
 
 https://nyaannyaan.github.io/library/fps/kitamasa.hpp.html
