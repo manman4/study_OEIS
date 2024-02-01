@@ -2,6 +2,10 @@
 
 [OEIS](https://oeis.org/) の各数列の研究
 
+## 構成
+
+### 全般
+
 - test
  
     PARI の結果の検証
@@ -30,7 +34,7 @@
 
 - linear
 
-以下個別の話題
+　### 個別の話題
 
 - graphillion
 
@@ -44,7 +48,11 @@
 
 - young tableaux
 
-その他
+- partition
+
+- composition
+
+### その他
 
 - edit
 
