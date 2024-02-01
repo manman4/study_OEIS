@@ -13,3 +13,5 @@ ordered partitionsとも呼ばれる
 | A017867 | 1/(1 -  x^8 -  x^9) | Number of compositions of n into parts 8  and 9.  |
 | A017877 | 1/(1 -  x^9 - x^10) | Number of compositions of n into parts 9  and 10. |
 | A017887 | 1/(1 - x^10 - x^11) | Number of compositions of n into parts 10 and 11. |
+| A017868 | 1/(1 -  x^8 -  x^9 - x^10) | Number of compositions of n into parts 8, 9  and 10. |
+| A017878 | 1/(1 -  x^9 - x^10 - x^11) | Number of compositions of n into parts 9, 10 and 11. |
