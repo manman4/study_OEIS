@@ -34,7 +34,7 @@
 
 - linear
 
-　### 個別の話題
+### 個別の話題
 
 - graphillion
 
