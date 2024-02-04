@@ -3,8 +3,6 @@ for(n=0, 20, print1(b(n),", "))
 a(n) = sum(k=0, n, binomial(n+4*k, n-k)); 
 for(n=0, 20, print1(a(n),", "))
 Vec((1-x)^4/((1-x)^5 - x) + O(x^20))  
-\\ a(0)=0
-Vec(x/((1-x)^5 - x) + O(x^20))  
 
 
 b(n) = polcoef((1/(1 - x - x^5) + O(x^1000)), 5*n-1);
@@ -12,6 +10,8 @@ for(n=0, 20, print1(b(n),", "))
 a(n) = sum(k=0, n, binomial(n-1+4*k, n-k));
 for(n=0, 20, print1(a(n),", "))
 Vec((1-x)^5/((1-x)^5 - x) + O(x^20))  
+\\ a(0)=0
+Vec(x/((1-x)^5 - x) + O(x^20))  
 
 
 b(n) = polcoef((1/(1 - x - x^5) + O(x^1000)), 5*n-2);
