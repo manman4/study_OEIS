@@ -31,7 +31,6 @@ for(s=1, 10, for(t=-10, 10, for(u=-20, 20, for(n=0, 20, if(a(n, s, t, u)!=b(n, s
 print1("done");
 
 
-
 \\ ( (1+x)^u * (1+x^s)^t )^n
 \\ Cf. A370194
 
