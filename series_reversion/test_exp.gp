@@ -84,7 +84,7 @@ print1("done");
 
 
 \\ x / (1+x)^u / (1+x^s)^t
-\\ Cf. A369439
+\\ Cf. A369440
 
 a(n, s, t, u) = sum(k=0, n\s, binomial(t*(n+1), k)*binomial(u*(n+1), n-s*k))/(n+1);
 b(n, s, t, u) = my(x='x+O('x^(n+2))); polcoef(serreverse(x/((1+x)^u*(1+x^s)^t))/x, n);
