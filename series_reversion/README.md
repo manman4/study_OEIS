@@ -8,6 +8,13 @@
 
 a(n) = (1/(n+1)) * [x^n] (1/f(x))^(n+1).
 
+ex) [A182401](https://oeis.org/A182401)
+
+G.f.: (1/x) * Series_Reversion( x / (1+5*x+x^2) ).
+
+a(n) = (1/(n+1)) * [x^n] (1+5*x+x^2)^(n+1).
+
+
 (参考)
 
 https://atcoder.jp/contests/abc222/editorial/2742
