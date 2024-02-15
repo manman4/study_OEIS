@@ -1,6 +1,21 @@
 # Series Reversion
 
-## (1/x) * Series_Reversion( f(x) )
+## Series_Reversion の計算について
+
+ラグランジュの反転公式より
+
+(1/x) * Series_Reversion( x * f(x) )　を母関数にもつ数列　
+
+a(n) = (1/(n+1)) [x^n] (1/f(x))^(n+1).
+
+(参考)
+
+https://atcoder.jp/contests/abc222/editorial/2742
+
+https://oeis.org/A251592/a251592.pdf
+
+
+## (1/x) * Series_Reversion( x * f(x) )
 
 Offset の違いは無視する。
 
