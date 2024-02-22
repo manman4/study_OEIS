@@ -4,6 +4,7 @@
 
 Derangement: number of permutations of n elements with no fixed points.
 
+## 関連の数列
 
 | Number | G.f. | 意味 |
 | ----- | ----- | ----- |
