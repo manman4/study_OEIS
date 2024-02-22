@@ -1,5 +1,10 @@
 # Permutation Cycle
 
+以下はよく使うので、名前がついている。
+
+Derangement: number of permutations of n elements with no fixed points.
+
+
 | Number | G.f. | 意味 |
 | ----- | ----- | ----- |
 | [A126074](https://oeis.org/A126074) | | the longest cycle length k |
