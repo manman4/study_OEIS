@@ -4,6 +4,8 @@
 
 binomial(r,k) = (-1)^k * binomial(k-r-1,k)
 
+注意：　r < 0 の場合は、binomial(r,k) = binomial(r,r-k) は必ずしも成り立たない。
+
 
 ```PARI
 -4 | 1 -4 10 -20
