@@ -62,6 +62,8 @@
 
 20067　　　https://benwiederhake.github.io/oeis-funfacts/
 
+自分で計算する方法 → https://github.com/manman4/study_OEIS/tree/main/oeis_fun
+
 ### images based on the parity of sequences in OEIS 
 
 https://twitter.com/oeisTriangles
