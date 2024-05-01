@@ -1,3 +1,6 @@
+
+\\ 5) ( (1+x)^u / (1+x+x^s)^t )^n
+
 a(n, s, t, u) = sum(k=0, n\s, binomial(t*n, k)*binomial((t+u)*n-k, n-s*k));
 b(n, s, t, u) = my(x='x+O('x^(n+2))); polcoef( ( (1+x)^u * (1+x+x^s)^t )^n, n);
 
