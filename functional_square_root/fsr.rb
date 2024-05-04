@@ -50,7 +50,7 @@ def f3r(f_ary, n)
   (2..n).each{|i|
     # 計算の順に注意
     (i - 1).downto(1){|x|
-      b[x][i] = (a[x][i] - (x + 1..i - 1).inject(0){|s, j| s + (j..i).inject(b[j][i]){|t, m| t + b[m][i] * b[j][m]} * b[x][j]}) / 3r
+      b[x][i] = (a[x][i] - (x + 1..i - 1).inject(0){|s, j| s + (j..i).inject(b[j][i]){|t, k| t + b[k][i] * b[j][k]} * b[x][j]}) / 3r
     }
   }
   b[1]
