@@ -22,6 +22,24 @@ def A(f_ary, n)
 end
 
 # f_aryの1次の項は1であること
+def f2r(f_ary, n)
+  a = A(f_ary, n)
+  b = []
+  (0..n).each{|i|
+    c = [0] * (n + 1)
+    c[i] = 1
+    b << c
+  }
+  (2..n).each{|i|
+    # 計算の順に注意
+    (i - 1).downto(1){|k|
+      b[k][i] = (a[k][i] - (k + 1..i - 1).inject(0){|s, j| s + b[j][i] * b[k][j]}) / 2
+    }
+  }
+  b[1]
+end
+
+# f_aryの1次の項は1であること
 def f3r(f_ary, n)
   a = A(f_ary, n)
   b = []
@@ -40,6 +58,11 @@ def f3r(f_ary, n)
 end
 
 n = 20
+
+# A220110
+f_ary = [0, 1, 2, 4] + [0] * (n - 3)
+p a = f2r(f_ary, n)
+p a.map(&:to_i)
 
 # A220288
 f_ary = [0, 1, 3, 9] + [0] * (n - 3)
