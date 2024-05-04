@@ -74,6 +74,24 @@ def f4r(f_ary, n)
   b[1]
 end
 
+# f_aryの1次の項は1であること
+def f5r(f_ary, n)
+  a = A(f_ary, n)
+  b = []
+  (0..n).each{|i|
+    c = [0] * (n + 1)
+    c[i] = 1
+    b << c
+  }
+  (2..n).each{|i|
+    # 計算の順に注意
+    (i - 1).downto(1){|x|
+      b[x][i] = (a[x][i] - (x + 1..i - 1).inject(0){|s, j| s + (j..i).inject(b[j][i]){|t, k| t + (k..i).inject(b[k][i]){|u, l| u + (l..i).inject(b[l][i]){|v, m| v + b[m][i] * b[l][m]} * b[k][l]} * b[j][k]} * b[x][j]}) / 5r
+    }
+  }
+  b[1]
+end
+
 n = 20
 
 # A220110
@@ -89,4 +107,9 @@ p a.map(&:to_i)
 # A141119
 f_ary = [0, 1, 16] + [0] * (n - 2)
 p a = f4r(f_ary, n)
+p a.map(&:to_i)
+
+# A141120
+f_ary = [0, 1, 25] + [0] * (n - 2)
+p a = f5r(f_ary, n)
 p a.map(&:to_i)
