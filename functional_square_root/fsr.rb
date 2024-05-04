@@ -40,6 +40,8 @@ def f3r(f_ary, n)
 end
 
 n = 20
+
+# A220288
 f_ary = [0, 1, 3, 9] + [0] * (n - 3)
 p a = f3r(f_ary, n)
 p a.map(&:to_i)
