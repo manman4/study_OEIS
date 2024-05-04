@@ -33,7 +33,7 @@ def f2r(f_ary, n)
   (2..n).each{|i|
     # 計算の順に注意
     (i - 1).downto(1){|k|
-      b[k][i] = (a[k][i] - (k + 1..i - 1).inject(0){|s, j| s + b[j][i] * b[k][j]}) / 2
+      b[k][i] = (a[k][i] - (k + 1..i - 1).inject(0){|s, j| s + b[j][i] * b[k][j]}) / 2r
     }
   }
   b[1]
