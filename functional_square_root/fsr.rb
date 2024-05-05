@@ -86,7 +86,7 @@ def f5r(f_ary, n)
   (2..n).each{|i1|
     # 計算の順に注意
     (i1 - 1).downto(1){|x|
-      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, j| s + (j..i1).inject(b[j][i1]){|t, k| t + (k..i1).inject(b[k][i1]){|u, l| u + (l..i1).inject(b[l][i1]){|v, m| v + b[m][i1] * b[l][m]} * b[k][l]} * b[j][k]} * b[x][j]}) / 5r
+      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2| s + (i2..i1).inject(b[i2][i1]){|t, i3| t + (i3..i1).inject(b[i3][i1]){|u, i4| u + (i4..i1).inject(b[i4][i1]){|v, m| v + b[m][i1] * b[i4][m]} * b[i3][i4]} * b[i2][i3]} * b[x][i2]}) / 5r
     }
   }
   b[1]
