@@ -43,4 +43,14 @@ b(n,m)
             ) * b(k,l)
        ) * b(l,m) 
     ).
+
+\\ A372537
+b(n,m) = 1/4 * ( 4^(n-m) * Sum_{l=0..m} binomial(l,n-3*m+2*l) * binomial(m,l) - Sum_{l=m+1..n-1} (b(n,l) + Sum_{k=l..n} (b(n,k) + Sum_{j=k..n} b(n,j) * b(j,k)) * b(k,l)) * b(l,m) ). 
+
+\\ A372521
+b(n,m) = 1/5 * ( 5^(n-m) * Sum_{l=0..m} binomial(l,n-3*m+2*l) * binomial(m,l) - Sum_{l=m+1..n-1} (b(n,l) + Sum_{k=l..n} (b(n,k) + Sum_{j=k..n} (b(n,j) + Sum_{i=j..n} b(n,i) * b(i,j)) * b(j,k)) * b(k,l)) * b(l,m) ).
+
+\\ A371841
+b(n,m) = 1/6 * ( 6^(n-m) * Sum_{l=0..m} binomial(l,n-3*m+2*l) * binomial(m,l) - Sum_{l=m+1..n-1} (b(n,l) + Sum_{k=l..n} (b(n,k) + Sum_{j=k..n} (b(n,j) + Sum_{i=j..n} (b(n,i) + Sum_{h=i..n} b(n,h) * b(h,i)) * b(i,j)) * b(j,k)) * b(k,l)) * b(l,m) ). 
+
 ```
