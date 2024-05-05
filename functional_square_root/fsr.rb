@@ -50,7 +50,11 @@ def f3r(f_ary, n)
   (2..n).each{|i1|
     # 計算の順に注意
     (i1 - 1).downto(1){|x|
-      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2| s + (i2..i1).inject(b[i2][i1]){|t, i3| t + b[i3][i1] * b[i2][i3]} * b[x][i2]}) / 3r
+      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2|
+        s + (i2..i1).inject(b[i2][i1]){|t, i3|
+          t + b[i3][i1] * b[i2][i3]
+        } * b[x][i2]
+      }) / 3r
     }
   }
   b[1]
@@ -68,7 +72,13 @@ def f4r(f_ary, n)
   (2..n).each{|i1|
     # 計算の順に注意
     (i1 - 1).downto(1){|x|
-      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2| s + (i2..i1).inject(b[i2][i1]){|t, i3| t + (i3..i1).inject(b[i3][i1]){|u, i4| u + b[i4][i1] * b[i3][i4]} * b[i2][i3]} * b[x][i2]}) / 4r
+      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2|
+        s + (i2..i1).inject(b[i2][i1]){|t, i3|
+          t + (i3..i1).inject(b[i3][i1]){|u, i4|
+            u + b[i4][i1] * b[i3][i4]
+          } * b[i2][i3]
+        } * b[x][i2]
+      }) / 4r
     }
   }
   b[1]
@@ -86,7 +96,15 @@ def f5r(f_ary, n)
   (2..n).each{|i1|
     # 計算の順に注意
     (i1 - 1).downto(1){|x|
-      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2| s + (i2..i1).inject(b[i2][i1]){|t, i3| t + (i3..i1).inject(b[i3][i1]){|u, i4| u + (i4..i1).inject(b[i4][i1]){|v, i5| v + b[i5][i1] * b[i4][i5]} * b[i3][i4]} * b[i2][i3]} * b[x][i2]}) / 5r
+      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2|
+        s + (i2..i1).inject(b[i2][i1]){|t, i3|
+          t + (i3..i1).inject(b[i3][i1]){|u, i4|
+            u + (i4..i1).inject(b[i4][i1]){|v, i5|
+              v + b[i5][i1] * b[i4][i5]
+            } * b[i3][i4]
+          } * b[i2][i3]
+        } * b[x][i2]
+      }) / 5r
     }
   }
   b[1]
@@ -104,7 +122,17 @@ def f6r(f_ary, n)
   (2..n).each{|i1|
     # 計算の順に注意
     (i1 - 1).downto(1){|x|
-      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2| s + (i2..i1).inject(b[i2][i1]){|t, i3| t + (i3..i1).inject(b[i3][i1]){|u, i4| u + (i4..i1).inject(b[i4][i1]){|v, i5| v + (i5..i1).inject(b[i5][i1]){|w, i6| w + b[i6][i1] * b[i5][i6]} * b[i4][i5]} * b[i3][i4]} * b[i2][i3]} * b[x][i2]}) / 6r
+      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2|
+        s + (i2..i1).inject(b[i2][i1]){|t, i3|
+          t + (i3..i1).inject(b[i3][i1]){|u, i4|
+            u + (i4..i1).inject(b[i4][i1]){|v, i5|
+              v + (i5..i1).inject(b[i5][i1]){|w, i6|
+                w + b[i6][i1] * b[i5][i6]
+              } * b[i4][i5]
+            } * b[i3][i4]
+          } * b[i2][i3]
+        } * b[x][i2]
+      }) / 6r
     }
   }
   b[1]
