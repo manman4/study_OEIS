@@ -68,7 +68,7 @@ def f4r(f_ary, n)
   (2..n).each{|i1|
     # 計算の順に注意
     (i1 - 1).downto(1){|x|
-      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2| s + (i2..i1).inject(b[i2][i1]){|t, i3| t + (i3..i1).inject(b[i3][i1]){|u, l| u + b[l][i1] * b[i3][l]} * b[i2][i3]} * b[x][i2]}) / 4r
+      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2| s + (i2..i1).inject(b[i2][i1]){|t, i3| t + (i3..i1).inject(b[i3][i1]){|u, i4| u + b[i4][i1] * b[i3][i4]} * b[i2][i3]} * b[x][i2]}) / 4r
     }
   }
   b[1]
