@@ -30,9 +30,9 @@ def f2r(f_ary, n)
     c[i] = 1
     b << c
   }
-  (2..n).each{|i|
-    (i - 1).downto(1){|x|
-      b[x][i] = (a[x][i] - (x + 1..i - 1).inject(0){|s, j| s + b[j][i] * b[x][j]}) / 2r
+  (2..n).each{|i1|
+    (i1 - 1).downto(1){|x|
+      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2| s + b[i2][i1] * b[x][i2]}) / 2r
     }
   }
   b[1]
