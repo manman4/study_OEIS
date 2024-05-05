@@ -14,6 +14,16 @@ b(n,m) のn>mの場合
 以下、PARI/GPのコードでないが、見やすさのため、コードのように書いている。
 
 ```
+\\ A372499
+b(n,m) = 1/3 * ( 9^(n-m) * binomial(n+m-1,2*m-1) - Sum_{l=m+1..n-1} (b(n,l) + Sum_{k=l..n} b(n,k) * b(k,l)) * b(l,m) ).
+
+\\ A372520
+b(n,m) = 1/5 * ( 25^(n-m) * binomial(n+m-1,2*m-1) - Sum_{l=m+1..n-1} (b(n,l) + Sum_{k=l..n} (b(n,k) + Sum_{j=k..n} (b(n,j) + Sum_{i=j..n} b(n,i) * b(i,j)) * b(j,k)) * b(k,l)) * b(l,m) ). 
+
+\\ A372522
+b(n,m) = 1/6 * ( 18^(n-m) * binomial(n+m-1,2*m-1) - Sum_{l=m+1..n-1} (b(n,l) + Sum_{k=l..n} (b(n,k) + Sum_{j=k..n} (b(n,j) + Sum_{i=j..n} (b(n,i) + Sum_{h=i..n} b(n,h) * b(h,i)) * b(i,j)) * b(j,k)) * b(k,l)) * b(l,m) ). 
+
+
 \\ A141120
 b(n,m) 
 = 1/5 * ( 
@@ -43,6 +53,7 @@ b(n,m)
             ) * b(k,l)
        ) * b(l,m) 
     ).
+
 
 \\ A372537
 b(n,m) 
