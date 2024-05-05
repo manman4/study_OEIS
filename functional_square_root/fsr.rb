@@ -50,7 +50,7 @@ def f3r(f_ary, n)
   (2..n).each{|i1|
     # 計算の順に注意
     (i1 - 1).downto(1){|x|
-      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2| s + (i2..i1).inject(b[i2][i1]){|t, k| t + b[k][i1] * b[i2][k]} * b[x][i2]}) / 3r
+      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2| s + (i2..i1).inject(b[i2][i1]){|t, i3| t + b[i3][i1] * b[i2][i3]} * b[x][i2]}) / 3r
     }
   }
   b[1]
@@ -65,10 +65,10 @@ def f4r(f_ary, n)
     c[i] = 1
     b << c
   }
-  (2..n).each{|i|
+  (2..n).each{|i1|
     # 計算の順に注意
-    (i - 1).downto(1){|x|
-      b[x][i] = (a[x][i] - (x + 1..i - 1).inject(0){|s, j| s + (j..i).inject(b[j][i]){|t, k| t + (k..i).inject(b[k][i]){|u, l| u + b[l][i] * b[k][l]} * b[j][k]} * b[x][j]}) / 4r
+    (i1 - 1).downto(1){|x|
+      b[x][i1] = (a[x][i1] - (x + 1..i1 - 1).inject(0){|s, i2| s + (i2..i1).inject(b[i2][i1]){|t, i3| t + (i3..i1).inject(b[i3][i1]){|u, l| u + b[l][i1] * b[i3][l]} * b[i2][i3]} * b[x][i2]}) / 4r
     }
   }
   b[1]
