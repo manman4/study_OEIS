@@ -1,6 +1,6 @@
 require './fsr'
 
-n = 20
+n = 30
 
 # A220110, 
 (2..6).each{|i|
@@ -27,6 +27,7 @@ n = 20
   p [i, a.all?{|i| i.denominator == 1}]
 }
 
+p "---------------------"
 
 def f(n)
   return 1 if n < 2
