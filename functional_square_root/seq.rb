@@ -53,5 +53,16 @@ end
   p [i, b.all?{|i| i.denominator == 1}]
 }
 
-
+(2..6).each{|i|
+  # 偶数はNG
+  f_ary = [0] + (1..n).map{|j| i ** (j - 1) / f(j).to_r}
+  a = fsr(f_ary, n, i)
+  p b = [0] + (1..n).map{|j| f(j) * a[j]}
+  p [i, b.all?{|i| i.denominator == 1}]
+  # 2,3, ... ,6すべてOK
+  f_ary = [0] + (1..n).map{|j| (2 * i) ** (j - 1) / f(j).to_r}
+  a = fsr(f_ary, n, i)
+  p b = [0] + (1..n).map{|j| f(j) * a[j]}
+  p [i, b.all?{|i| i.denominator == 1}]
+}
 
