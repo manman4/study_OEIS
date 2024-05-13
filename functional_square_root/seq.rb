@@ -17,11 +17,12 @@ n = 20
 }
 
 (2..6).each{|i|
-  f_ary = [0] + (1..n).map{|j| j * (i * i) ** (j - 1)}
-  p a = fsr(f_ary, n, i)
-  p [i, a.all?{|i| i.denominator == 1}]
   # ちなみに2,4はOK
   f_ary = [0] + (1..n).map{|j| j * i ** (j - 1)}
+  p a = fsr(f_ary, n, i)
+  p [i, a.all?{|i| i.denominator == 1}]
+  # 2,3, ... ,6すべてOK
+  f_ary = [0] + (1..n).map{|j| j * (i * i) ** (j - 1)}
   p a = fsr(f_ary, n, i)
   p [i, a.all?{|i| i.denominator == 1}]
 }
