@@ -21,6 +21,14 @@ def A(f_ary, n)
   a
 end
 
+def fsr(f_ary, n, k)
+  return f2r(f_ary, n) if k == 2
+  return f3r(f_ary, n) if k == 3
+  return f4r(f_ary, n) if k == 4
+  return f5r(f_ary, n) if k == 5
+  return f6r(f_ary, n) if k == 6
+end
+
 # f_aryの1次の項は1であること
 def f2r(f_ary, n)
   a = A(f_ary, n)
