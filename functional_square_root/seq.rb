@@ -20,4 +20,8 @@ n = 20
   f_ary = [0] + (1..n).map{|j| j * (i * i) ** (j - 1)}
   p a = fsr(f_ary, n, i)
   p [i, a.all?{|i| i.denominator == 1}]
+  # ちなみに
+  f_ary = [0] + (1..n).map{|j| j * i ** (j - 1)}
+  p a = fsr(f_ary, n, i)
+  p [i, a.all?{|i| i.denominator == 1}]
 }
