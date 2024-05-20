@@ -11,3 +11,12 @@
 | [A372893](https://oeis.org/A372893) | Sum_{k>=0}             x^(3 * k  ) * Product_{j=1..3*k-1} (1+x^j        ).  | 
 | [A373012](https://oeis.org/A373012) | Sum_{k>=0}             x^(3 * k+1) * Product_{j=1..3*k  } (1+x^j        ).  | 
 | [A373013](https://oeis.org/A373013) | Sum_{k>=0}             x^(3 * k+2) * Product_{j=1..3*k+1} (1+x^j        ).  | 
+
+
+## partition
+
+| Number | 式 |
+| ----- | ----- | 
+| [A363045](https://oeis.org/A363045) | Sum_{k>=0}             x^(3 * k  ) / Product_{j=1..3*k  } (1-x^j        ).  | 
+| [A373014](https://oeis.org/A373014) | Sum_{k>=0}             x^(3 * k+1) / Product_{j=1..3*k+1} (1-x^j        ).  | 
+| [A373015](https://oeis.org/A373015) | Sum_{k>=0}             x^(3 * k+2) / Product_{j=1..3*k+2} (1-x^j        ).  | 
