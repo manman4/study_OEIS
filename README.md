@@ -76,3 +76,9 @@ https://github.com/JulienPalard/oeis
 
 を見る限りそんなに多くは登録されていない
 
+
+## 有益なサイト
+
+The Combinatorial Object Server
+
+Prime Curios!
