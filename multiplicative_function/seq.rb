@@ -10,6 +10,10 @@ def A(n, prime)
   n.prime_division.inject(1){|s, (p, e)| s * (p == prime ? e + 1 : 1)}
 end
 
+def A055457(n)
+  A(n, 5)
+end
+
 def A373217(n)
   A(n, 7)
 end
@@ -18,5 +22,7 @@ end
 n = 50
 
 p (1..n).map{|i| A372671(i)}
+
+p (1..n).map{|i| A055457(i)}
 p (1..n).map{|i| A373217(i)}
 
