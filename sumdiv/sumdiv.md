@@ -82,3 +82,19 @@
 | [A338694](https://oeis.org/A338694) | Sum_{d&#124;n}  d^d     * binomial(d, n/d) | Sum_{k>=1} k^k *  ((1 +      x^k )^k - 1) | 
 | [A327238](https://oeis.org/A327238) | Sum_{d&#124;n}  d^(n/d) * binomial(d, n/d) | Sum_{k>=1}        ((1 +  k * x^k )^k - 1) | 
 | [A338685](https://oeis.org/A338685) | Sum_{d&#124;n}  d^n     * binomial(d, n/d) | Sum_{k>=1}        ((1 + (k * x)^k)^k - 1) | 
+
+
+
+
+## Sum_{k>=0} x^a^k/(1 - x^a^k)^b
+
+A(x) = x/(1-x)^b + A(x^a)
+
+| Number | a(n) | G.f. | 
+| ----- | ----- | ----- | 
+| [A001511](https://oeis.org/A001511) |        | Sum_{k>=0} x^2^k/(1 - x^2^k) | 
+| [A051064](https://oeis.org/A051064) |        | Sum_{k>=0} x^3^k/(1 - x^3^k) | 
+
+
+
+
