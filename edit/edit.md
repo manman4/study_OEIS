@@ -53,7 +53,7 @@ https://github.com/manman4/study_OEIS/tree/main/src#readme
 
 ### PARI
 
-#### 関数は基本小文字から
+関数は基本小文字から
 
 ```PARI:func
 a354339(n) = n!*sum(k=1, n, sumdiv(k, d, 1/(d*(k/d)^d))/(n-k)!);
