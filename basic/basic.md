@@ -38,4 +38,3 @@ https://manchanr6.blogspot.com/2023/10/231001.html
 より詳しくはこちらで議論（実装）する予定
 
 https://github.com/manman4/study_OEIS/tree/main/linear
-
