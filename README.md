@@ -79,6 +79,6 @@ https://github.com/JulienPalard/oeis
 
 ## 有益なサイト
 
-The Combinatorial Object Server
+* The Combinatorial Object Server
 
-Prime Curios!
+* Prime Curios!
