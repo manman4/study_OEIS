@@ -1,5 +1,8 @@
 # study_OEIS
 
+- [日本語](README_ja.md)
+- [English](README.md)
+
 [OEIS](https://oeis.org/) の各数列の研究
 
 ## 構成
