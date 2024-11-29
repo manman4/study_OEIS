@@ -34,7 +34,7 @@ Study of each sequence of numbers in the [OEIS](https://oeis.org/)
 
 - linear
 
-### 個別の話題
+### Individual topics
 
 - graphillion
 
