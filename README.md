@@ -52,19 +52,19 @@ Study of each sequence of numbers in the [OEIS](https://oeis.org/)
 
 - composition
 
-### その他
+### Miscellaneous
 
 - edit
 
 
 
-## 話題
+## Topic
 
-### 載っていない最も小さな数　
+### The smallest number not listed　
 
 20067　　　https://benwiederhake.github.io/oeis-funfacts/
 
-自分で計算する方法 → https://github.com/manman4/study_OEIS/tree/main/oeis_fun
+How to calculate it yourself → https://github.com/manman4/study_OEIS/tree/main/oeis_fun
 
 ### images based on the parity of sequences in OEIS 
 
@@ -72,14 +72,14 @@ https://twitter.com/oeisTriangles
 
 ### pip oeis
 
-oeisをpipでインストールできるが、
+You can install oeis with pip.
 
 https://github.com/JulienPalard/oeis
 
-を見る限りそんなに多くは登録されていない
+Not that many registered as far as the above is concerned.
 
 
-## 有益なサイト
+## Useful sites
 
 * The Combinatorial Object Server
 
