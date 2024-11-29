@@ -1,5 +1,8 @@
 # study_OEIS
 
+- [日本語](README_ja.md)
+- [English](README.md)
+
 Study of each sequence of numbers in the [OEIS](https://oeis.org/) 
 
 ## Composition
