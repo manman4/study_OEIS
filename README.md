@@ -1,22 +1,22 @@
 # study_OEIS
 
-[OEIS](https://oeis.org/) の各数列の研究
+Study of each sequence of numbers in the [OEIS](https://oeis.org/) 
 
-## 構成
+## Composition
 
-### 全般
+### General
 
 - test
  
-    PARI の結果の検証
+    Verification of PARI results
 
 - src
 
-    別リポジトリ（数列の番号順に整理していた）
+    Separate repository (organized in numerical sequence numbering)
     
 - formula
 
-    加えた公式の確認等
+    Verification of added formulas, etc.
     
 - transform
 
