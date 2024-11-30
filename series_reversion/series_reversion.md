@@ -4,7 +4,7 @@
 
 ラグランジュの反転公式より
 
-(1/x) * Series_Reversion( x * f(x) )　を母関数にもつ数列　
+A(x) = (1/x) * Series_Reversion( x * f(x) )　を母関数にもつ数列　
 
 a(n) = (1/(n+1)) * [x^n] (1/f(x))^(n+1).
 
