@@ -18,6 +18,10 @@ G.f.: (1/x) * Series_Reversion( x / (1+5*x+x^2) ).
 
 A182401(n) = (1/(n+1)) * [x^n] (1+5*x+x^2)^(n+1).
 
+A098409(n) = [x^n] (1+5*x+x^2)^n を考えると、
+
+G.f.: (1/x) * Series_Reversion( x / (1+5*x+x^2) ) = exp( Sum_{k>=1} A098409(k) * x^k/k ).
+
 
 (参考)
 
