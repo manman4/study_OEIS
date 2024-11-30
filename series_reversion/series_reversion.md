@@ -8,6 +8,10 @@ A(x) = (1/x) * Series_Reversion( x * f(x) )　を母関数にもつ数列　
 
 a(n) = (1/(n+1)) * [x^n] (1/f(x))^(n+1).
 
+数列 b(n) = [x^n] (1/f(x))^n を考えると、
+
+A(x) = exp( Sum_{k>=1} b(k) * x^k/k ).
+
 ex) [A182401](https://oeis.org/A182401)
 
 G.f.: (1/x) * Series_Reversion( x / (1+5*x+x^2) ).
