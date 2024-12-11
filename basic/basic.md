@@ -21,6 +21,15 @@ binomial(r,k) = (-1)^k * binomial(k-r-1,k)
 （参考）　コンピュータの数学　P.161
 
 
+## 負の二項係数
+
+よく使うもの
+
+(-4)^n * binomial(-1/2,n) = binomial(2*n,n)
+
+binomial(-k,n-k) = (-1)^(n-k) * binomial(n-1,n-k)
+
+
 ## 形式的べき級数(FPS)
 
 競プロではFPSで通じている。
