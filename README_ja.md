@@ -65,7 +65,7 @@
 
 ### 載っていない最も小さな数　
 
-20067　　　https://benwiederhake.github.io/oeis-funfacts/
+20990　　　https://benwiederhake.github.io/oeis-funfacts/
 
 自分で計算する方法 → https://github.com/manman4/study_OEIS/tree/main/oeis_fun
 
