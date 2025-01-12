@@ -65,7 +65,7 @@ Study of each sequence of numbers in the [OEIS](https://oeis.org/)
 
 ### The smallest number not listed　
 
-20067　　　https://benwiederhake.github.io/oeis-funfacts/
+20990　　　https://benwiederhake.github.io/oeis-funfacts/
 
 How to calculate it yourself → https://github.com/manman4/study_OEIS/tree/main/oeis_fun
 
