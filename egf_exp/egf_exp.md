@@ -4,13 +4,13 @@
 
 数列a(n) のe.g.f. が 1/(1 - f(x)) であり、
 
-数列b(n) のe.g.f. f(x) であるとき、
+数列b(n) のe.g.f. が f(x) であるとき、
 
 **a(n) = Sum_{k=1..n} b(k) * binomial(n,k) * a(n-k).**
 
 数列a(n) のe.g.f. が exp(f(x)) であり、
 
-数列b(n) のe.g.f. f(x) であるとき、
+数列b(n) のe.g.f. が f(x) であるとき、
 
 **a(n) = Sum_{k=1..n} b(k) * binomial(n-1,k-1) * a(n-k).**
 
