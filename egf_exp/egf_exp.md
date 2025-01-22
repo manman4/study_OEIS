@@ -4,10 +4,13 @@
 
 数列b(n) のe.g.f. f(x) であるとき、
 
-a(n) = Sum_{k=1..n} b(k) * binomial(n-1,k-1) * a(n-k).
+*a(n) = Sum_{k=1..n} b(k) * binomial(n-1,k-1) * a(n-k).*
 
+数列a(n) のe.g.f. が 1/(1 - f(x)) であり、
 
+数列b(n) のe.g.f. f(x) であるとき、
 
+a(n) = Sum_{k=1..n} b(k) * binomial(n,k) * a(n-k).
 
 
 | Number | e.g.f. 1/(1 - f(x)) | Number | E.g.f. exp(f(x)) |
