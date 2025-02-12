@@ -23,7 +23,7 @@ https://oeis.org/wiki/AVOID_INTERFERING_EDITS
 
 ### Square array
 
-A(n,k)ではなくT(n,k) ?
+A(n,k)ではなくT(n,k) ? -> EICのコミュではどちらでもいいという結論に。（2025/02）
 
 Cf. https://oeis.org/A364113
 
