@@ -35,6 +35,12 @@ binomial(r,k) = (-1)^k * binomial(k-r-1,k)
 
 binomial(-k,n-k) = (-1)^(n-k) * binomial(n-1,n-k)
 
+#### あまり見かけないもの
+
+binomial(-k,-n) = (-1)^(n-k) * binomial(n-1,k-1)
+
+Cf. https://oeis.org/wiki/User:Peter_Luschny/ExtensionsOfTheBinomial
+
 
 ## 形式的べき級数(FPS)
 
