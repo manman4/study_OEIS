@@ -27,6 +27,12 @@ A(n,k)ではなくT(n,k) ? -> EICのコミュではどちらでもいいとい�
 
 Cf. https://oeis.org/A364113
 
+#### A(n,k)とT(n,k)
+
+OFFSET０のとき　T(n,k) = A(k,n-k).
+
+Cf. [A046688](https://oeis.org/A046688)、[A323834](https://oeis.org/A323834)
+
 ## DATA
 
 ### 存在しない時
