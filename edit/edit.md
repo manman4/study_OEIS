@@ -33,6 +33,12 @@ OFFSET０のとき　T(n,k) = A(k,n-k).
 
 Cf. [A046688](https://oeis.org/A046688)、[A323834](https://oeis.org/A323834)
 
+#### ColumnとRow
+
+Column kの該当数列がずれているとき添字はn、Row nの該当数列がずれているとき、添字はk 
+
+Cf. [A376033](https://oeis.org/A376033)
+
 ## DATA
 
 ### 存在しない時
