@@ -19,9 +19,11 @@
 M=20;
 
 print("A168246 Inverse Weigh transform of n!.")
-a_vector(n) = my(A=vector(n+1, k, (k-1)!)); trv_i_weigh(A);
+f(n) = n!;
+a_vector(n) = my(A=vector(n+1, k, f(k-1))); trv_i_weigh(A);
 a_vector(M) 
 
 print("A306156 Inverse Weigh transform of 2^n.")
-a_vector(n) = my(A=vector(n+1, k, 2^(k-1))); trv_i_weigh(A);
+f(n) = 2^n;
+a_vector(n) = my(A=vector(n+1, k, f(k-1))); trv_i_weigh(A);
 a_vector(M) 
