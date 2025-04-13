@@ -32,3 +32,8 @@ print("A306157 Inverse Weigh transform of 3^n.")
 f(n) = 3^n;
 a_vector(n) = my(A=vector(n+1, k, f(k-1))); trv_i_weigh(A);
 a_vector(M) 
+
+print("A306152 Inverse Weigh transform of n^n.")
+f(n) = n^n;
+a_vector(n) = my(A=vector(n+1, k, f(k-1))); trv_i_weigh(A);
+a_vector(M) 
