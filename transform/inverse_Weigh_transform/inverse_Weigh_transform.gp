@@ -1,3 +1,7 @@
+\\ Christian G. Bower氏の以下のコードを使用
+\\ https://oeis.org/transforms_pari.txt
+\\ ライセンスは上記に従う
+
 \\ Cf. A136628
 \\ read("transforms_pari.txt"); or
 /* inverse weigh transform
