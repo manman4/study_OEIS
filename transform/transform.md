@@ -13,7 +13,8 @@ https://oeis.org/wiki/Category:Transforms
 
 #### 逆操作対応表
 
-| 変換名 | 逆操作名 |
-| --- | --- |
-| Möbius_transform    | inverse Möbius_transform |
-| Weigh transform     | inverse Weigh transform |
+| 変換名 | 逆操作名 | 備考 |
+| --- | --- | --- |
+| Möbius_transform    | inverse Möbius_transform |  |
+| Euler transform     | inverse Euler transform  |  |
+| Weigh transform     | inverse Weigh transform  | Euler transfromと似る |
