@@ -17,7 +17,7 @@
   C = exp(Ser(concat(0,B)));
   for(i=1, #A, A[i] = polcoeff(C,i-1));
   A
-}
+};
 
 M=20;
 
