@@ -9,4 +9,3 @@ https://oeis.org/wiki/M%C3%B6bius_transform#Inverse_M.C3.B6bius_transform
 | Number | ary |
 | ----- | ----- |
 | [A062796](https://oeis.org/A062796) | 1,4,27, ... (n^n) |
-
