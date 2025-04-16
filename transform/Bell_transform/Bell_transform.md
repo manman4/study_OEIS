@@ -6,7 +6,9 @@
 
 ちなみに、以下にはない。
 
-https://oeis.org/transforms_pari.txt
+Maple https://oeis.org/transforms.txt
+
+Pari/GP https://oeis.org/transforms_pari.txt
 
 | 番号 | a(n) |
 |----- | ----- | 
