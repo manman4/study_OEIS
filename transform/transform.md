@@ -17,4 +17,5 @@ https://oeis.org/wiki/Category:Transforms
 | --- | --- | --- |
 | Möbius_transform    | inverse Möbius_transform |  |
 | Euler transform     | inverse Euler transform  |  |
+| Stirling transform  | inverse Stilring transform  | 意外とinverse Stirling transformという「名前」は使われていない？ |
 | Weigh transform     | inverse Weigh transform  | Euler transfromと似る |
