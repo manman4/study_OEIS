@@ -1,7 +1,12 @@
- 
+# Bell transform 
+
+以下で導入された。
+
 [The Bell Transform](https://oeis.org/wiki/User:Peter_Luschny/BellTransform)
 
+ちなみに、以下にはない。
 
+https://oeis.org/transforms_pari.txt
 
 | 番号 | a(n) |
 |----- | ----- | 
