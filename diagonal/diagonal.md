@@ -28,8 +28,9 @@
 | [A002426](https://oeis.org/A002426) | 1 / (1 - x^2 - y^2 - x*y)     | | | 
 | [A182883](https://oeis.org/A182883) | 1 / (1 - x^3 - y^3 - (x*y)^2) | | |
 | [A084603](https://oeis.org/A084603) | 1 / (1 - 3*x^2 - y^2 - x*y)   | | |
-| [A082489](https://oeis.org/A082489) | 1 / (1 - x - y - z - u - v - x*y*z*u*v)        | | |
-| [A229049](https://oeis.org/A229049) | 1 / (1 - x - y - z - u - v - w - x*y*z*u*v*w)  | | |
+| [A082488](https://oeis.org/A082488) | 1 / (1 - x - y - z - w - x*y*z*w)              | | Columns k=4 of A229142 |
+| [A082489](https://oeis.org/A082489) | 1 / (1 - x - y - z - u - v - x*y*z*u*v)        | | Columns k=5 of A229142 |
+| [A229049](https://oeis.org/A229049) | 1 / (1 - x - y - z - u - v - w - x*y*z*u*v*w)  | | Columns k=6 of A229142 |
 | [A344560](https://oeis.org/A344560) | 1 / (1 - x^3 - y^3 - z^3 - x*y*z) | | |
 
 
