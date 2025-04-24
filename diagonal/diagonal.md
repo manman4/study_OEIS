@@ -24,10 +24,13 @@
 | [A248658](https://oeis.org/A248658) | 1 / ((1 - x)*(1 - y)*(1 - z) - (x*y*z)^3) | | |
 | [A275027](https://oeis.org/A275027) | 1 / ((1 - x)*(1 - y)*(1 - z) - x^2*y*z)   | | |
 | [A381482](https://oeis.org/A381482) | 1 / ((1 - x)*(1 - y)*(1 - z) - 2*x^2*y*z) | | |
+| [A349713](https://oeis.org/A349713) | 1 / (1 - x - y - (x*y)^2)     | | | |
 | [A002426](https://oeis.org/A002426) | 1 / (1 - x^2 - y^2 - x*y)     | | | 
 | [A182883](https://oeis.org/A182883) | 1 / (1 - x^3 - y^3 - (x*y)^2) | | |
 | [A084603](https://oeis.org/A084603) | 1 / (1 - 3*x^2 - y^2 - x*y)   | | |
 | [A082489](https://oeis.org/A082489) | 1 / (1 - x - y - z - u - v - x*y*z*u*v)        | | |
 | [A229049](https://oeis.org/A229049) | 1 / (1 - x - y - z - u - v - w - x*y*z*u*v*w)  | | |
+| [A344560](https://oeis.org/A344560) | 1 / (1 - x^3 - y^3 - z^3 - x*y*z) | | |
+
 
 
