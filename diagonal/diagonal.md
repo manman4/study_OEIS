@@ -12,7 +12,7 @@
 | [A098430](https://oeis.org/A098430) | 1 / (1 - 4*x - y) | a(n) = 4^n*(2*n)!/(n!)^2 | | |
 | [A054440](https://oeis.org/A054440) | a(n) = [(x*y)^n] Product_{k>=1} (1 + x^k / (1 - x^k) + y^k / (1 - y^k)) | | |  
 | [A278405](https://oeis.org/A278405) | 1 / ((1 + x)*(1 - x)*(1 - y)*(1 - z) - x*y*z) | | | |
-| [A192369](https://oeis.org/A192369) | 1 / (1 - x - y - x^2 - y^2 - (x*y)^2) | | | |
+| [A192369](https://oeis.org/A192369) | 1 / (1 - x - y - x^2 - y^2 - (x*y)^2)       | | Number of lattice paths from (0,0) to (n,n) using steps (0,1),(0,2),(1,0),(2,0),  and (2,2) | |
 | [A192364](https://oeis.org/A192364) | 1 / (1 - x - y - x^2 - y^2 - x*y)           | | Number of lattice paths from (0,0) to (n,n) using steps (0,1),(0,2),(1,0),(2,0),(1,1)       | |
 | [A192365](https://oeis.org/A192365) | 1 / (1 - x - y - x^2 - y^2 - x*y - (x*y)^2) | | Number of lattice paths from (0,0) to (n,n) using steps (1,0),(2,0),(0,1),(0,2),(1,1),(2,2) | |
 | [A122680](https://oeis.org/A122680) | 1 / (1 - x - y - x^2 - y^2 - x^3 - y^3) | | | |
