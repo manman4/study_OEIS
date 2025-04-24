@@ -16,7 +16,7 @@
 | [A192365](https://oeis.org/A192365) | 1 / (1 - x - y - x^2 - y^2 - x*y - (x*y)^2) | | | |
 | [A122680](https://oeis.org/A122680) | 1 / (1 - x - y - x^2 - y^2 - x^3 - y^3) | | | |
 | [A000172](https://oeis.org/A000172) | 1 / ((1-x)*(1-y)*(1-z) - x*y*z)   | a(n) = Sum_{k=0..n} binomial(n,k)^3       | | |
-| [A206178](https://oeis.org/A206178) | 1 / ((1-x)*(1-y)*(1-z) - 2*x*y*z) | a(n) = Sum_{k=0..n} binomial(n,k)^3 * 2^k | | 1/(1 - x - y - z + x*y + y*z + x*z - 3*x*y*z)と同じ |
+| [A206178](https://oeis.org/A206178) | 1 / ((1-x)*(1-y)*(1-z) - 2*x*y*z) | a(n) = Sum_{k=0..n} binomial(n,k)^3 * 2^k | 1/(1 - x - y - z + x*y + y*z + x*z - 3*x*y*z)と同じ<br>Column k=2 of A336163 | checked |
 | [A206180](https://oeis.org/A206180) | 1 / ((1-x)*(1-y)*(1-z) - 3*x*y*z) | a(n) = Sum_{k=0..n} binomial(n,k)^3 * 3^k | | |
 | [A216483](https://oeis.org/A216483) | 1 / ((1-x)*(1-y)*(1-z) - 4*x*y*z) | a(n) = Sum_{k=0..n} binomial(n,k)^3 * 4^k | | |
 | [A216636](https://oeis.org/A216636) | 1 / ((1-x)*(1-y)*(1-z) - 5*x*y*z) | a(n) = Sum_{k=0..n} binomial(n,k)^3 * 5^k | | |
