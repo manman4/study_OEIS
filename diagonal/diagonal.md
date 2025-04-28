@@ -15,7 +15,7 @@
 | [A192369](https://oeis.org/A192369) | 1 / (1 - x - y - x^2 - y^2 - (x*y)^2)       | |  Number of lattice paths from (0,0) to (n,n) using steps (0,1),(0,2),(1,0),(2,0),  and (2,2)  | |
 | [A192364](https://oeis.org/A192364) | 1 / (1 - x - y - x^2 - y^2 - x*y)           | |  Number of lattice paths from (0,0) to (n,n) using steps (0,1),(0,2),(1,0),(2,0),(1,1)        | |
 | [A192365](https://oeis.org/A192365) | 1 / (1 - x - y - x^2 - y^2 - x*y - (x*y)^2) | |  Number of lattice paths from (0,0) to (n,n) using steps (1,0),(2,0),(0,1),(0,2),(1,1),(2,2)  | |
-| [A122680](https://oeis.org/A122680) | 1 / (1 - x - y - x^2 - y^2 - x^3 - y^3)     | | lattice from (0,0) to (n,n) where the allowed steps are {(1,0),(2,0),(3,0),(0,1),(0,2),(0,3)} | |
+| [A122680](https://oeis.org/A122680) | 1 / (1 - x - y - x^2 - y^2 - x^3 - y^3)     | | lattice from (0,0) to (n,n) where the allowed steps are {(1,0),(2,0),(3,0),(0,1),(0,2),(0,3)}<br>Main diagonal of A383474 | |
 | [A000172](https://oeis.org/A000172) | 1 / ((1-x)*(1-y)*(1-z) - x*y*z)   | a(n) = Sum_{k=0..n} binomial(n,k)^3       | Column k=1 of A336163 | checked |
 | [A206178](https://oeis.org/A206178) | 1 / ((1-x)*(1-y)*(1-z) - 2*x*y*z) | a(n) = Sum_{k=0..n} binomial(n,k)^3 * 2^k | 1/(1 - x - y - z + x*y + y*z + x*z - 3*x*y*z)と同じ<br>Column k=2 of A336163 | checked |
 | [A206180](https://oeis.org/A206180) | 1 / ((1-x)*(1-y)*(1-z) - 3*x*y*z) | a(n) = Sum_{k=0..n} binomial(n,k)^3 * 3^k | Column k=3 of A336163 | checked |
