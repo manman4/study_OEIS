@@ -86,13 +86,5 @@ diffchecker, FileMerge
 
 Mac とChromeでは図が崩れる時がある　Mac ではSafari or Firefox
 
-## 編集の作業
 
-1. ネタ探し
-
-2. 作成、編集、確認
-
-3. 承認後内容確認、コード保管
-
-数列を10個くらい作成すると、2,3は意外に時間がかかる。
 
