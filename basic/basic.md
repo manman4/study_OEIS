@@ -33,6 +33,8 @@ binomial(r,k) = (-1)^k * binomial(k-r-1,k)
 
 (-4)^n * binomial(-1/2,n) = binomial(2*n,n)
 
+(-4)^n * binomial(-3/2,n) = (2*n+1) * binomial(2*n,n)
+
 binomial(-k,n-k) = (-1)^(n-k) * binomial(n-1,n-k)
 
 #### あまり見かけないもの
