@@ -14,16 +14,18 @@
 
 ## 古い数列
 
-Seq,Name,Date
-A006449,Jeffrey Shallit,1975-11-25
-A006450,Jeffrey Shallit,1975-11-25
-A006340,D. R. Hofstadter,1977-07-15
-A006338,D. R. Hofstadter,1977-07-15
-A006336,D. R. Hofstadter,1977-07-15
-A006337,D. R. Hofstadter,1977-07-15
-A005243,D. R. Hofstadter,1977-07-15
-A048143,Greg Huber,1983-05-12
-A006062,N. J. A. Sloane,1991-07-11
-A007322,Don Zagier (don.zagier(AT)mpim-bonn.mpg.de),1994-04-11
-A007323,Don Zagier (don.zagier(AT)mpim-bonn.mpg.de),1994-04-11
+
+| Seq      | Name                                      | Date       |
+|----------|-------------------------------------------|------------|
+| A006449  | Jeffrey Shallit                           | 1975-11-25 |
+| A006450  | Jeffrey Shallit                           | 1975-11-25 |
+| A006340  | D. R. Hofstadter                          | 1977-07-15 |
+| A006338  | D. R. Hofstadter                          | 1977-07-15 |
+| A006336  | D. R. Hofstadter                          | 1977-07-15 |
+| A006337  | D. R. Hofstadter                          | 1977-07-15 |
+| A005243  | D. R. Hofstadter                          | 1977-07-15 |
+| A048143  | Greg Huber                                | 1983-05-12 |
+| A006062  | N. J. A. Sloane                           | 1991-07-11 |
+| A007322  | Don Zagier (don.zagier(AT)mpim-bonn.mpg.de) | 1994-04-11 |
+| A007323  | Don Zagier (don.zagier(AT)mpim-bonn.mpg.de) | 1994-04-11 |
 
