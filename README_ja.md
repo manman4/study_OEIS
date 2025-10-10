@@ -37,6 +37,8 @@
 
 - linear
 
+- p_recursive
+
 ### 個別の話題
 
 - graphillion
