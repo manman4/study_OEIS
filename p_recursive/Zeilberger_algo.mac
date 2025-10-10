@@ -6,11 +6,12 @@ load(zeilberger)$
 /* Zeilberger 出力を自動でシフトして係数リストにする関数 */
 shifted_zeilberger_coeffs(F_expr, k, n) := block(
     [Z, m],
+    print("----------------------------------------"),
+    print("Applying Zeilberger to F =", F_expr),
     Z : Zeilberger(F_expr, k, n)[1][2],
     m : length(Z) - 1,
     map(lambda([c], factor(subst(n = n-m, c))), Z)
 )$
-
 
 
 /* --- 使用例 --- */
