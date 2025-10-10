@@ -9,7 +9,18 @@ Zeilberger(F(1), k, n)[1][2];
 
 F(a) := a^k * binomial(n,k) * binomial(2*n,k);
 print("         A387928")$
-Zeilberger(F(3), k, n)[1][2];
+
+/* Zeilberger 出力を直接代入 */
+Z : Zeilberger(F(3), k, n)[1][2];
+
+print("         きちんとずらす")$
+
+/* mだけずらす */
+m : length(Z) - 1$
+
+/* 項を n -> n-m にシフト */
+shifted_coeffs : map(lambda([c], factor(subst(n = n-m, c))), Z);
+
 
 F(a) := a^(n-k) * binomial(n,k) * binomial(2*n,k);
 print("         A387929")$
