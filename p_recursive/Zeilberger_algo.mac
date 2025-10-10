@@ -1,0 +1,13 @@
+/* 実行は maxima --batch=Zeilber_algo.mac */
+
+load(zeilberger)$
+
+F(a) := binomial(n,k)^2 * binomial(n+k,k)^a;
+/* Zeilberger(F(1), k, n)[1][1]; */
+Zeilberger(F(1), k, n)[1][2];
+
+F(a) := a^k * binomial(n,k) * binomial(2*n,k);
+Zeilberger(F(3), k, n)[1][2];
+
+F(a) := a^(n-k) * binomial(n,k) * binomial(2*n,k);
+Zeilberger(F(3), k, n)[1][2];
