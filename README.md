@@ -37,6 +37,8 @@ Study of each sequence of numbers in the [OEIS](https://oeis.org/)
 
 - linear
 
+- p_recursive
+
 ### Individual topics
 
 - graphillion
