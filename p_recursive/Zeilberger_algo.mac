@@ -21,8 +21,14 @@ F(a) := binomial(n,k)^2 * binomial(n+k,k)^a$
 Z : shifted_zeilberger_coeffs(F(1), k, n)$
 print("Axxxxxx coefficients:", Z)$
 
-/* A387928 */
+
 F(a) := a^k * binomial(n,k) * binomial(2*n,k)$
+
+/* A026000 */
+Z : shifted_zeilberger_coeffs(F(2), k, n)$
+print("A026000 coefficients:", Z)$
+
+/* A387928 */
 Z : shifted_zeilberger_coeffs(F(3), k, n)$
 print("A387928 coefficients:", Z)$
 
