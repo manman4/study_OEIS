@@ -1,5 +1,5 @@
 /* 実行は maxima --batch=Zeilberger_algo.mac */
-/* %iを出さないなら maxima -q < Zeilberger_algo.mac */
+/* %iを完全に出さないなら maxima --very-quiet < Zeilberger_algo.mac */
 
 load(zeilberger)$
 
