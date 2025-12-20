@@ -36,7 +36,7 @@ end
 # f を多項式として f=0 が数列 s を生成する漸化式の特性方程式となっているか
 def test(f, s)
   (0..s.size - f.size).all?{|i|
-    f.each_with_index.inject(0) {|sum, (fj, j)|
+    f.each_with_index.inject(0){|sum, (fj, j)|
       sum + fj * s[f.size + i - j - 1]
     } == 0
   }
@@ -51,7 +51,7 @@ def polynomial(s)
       f, n = c, q if c.size > f.size
       next
     end
-    f = (0...f.size).map {|i| chinese(n, f[i], q, c[i])}
+    f = (0...f.size).map{|i| chinese(n, f[i], q, c[i])}
     return f if test(f, s)
     n *= q
   }
