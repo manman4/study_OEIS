@@ -4,7 +4,7 @@ def berlekamp_massey(s, q)
   b, c = [1], [1] + [0] * (s.size - 1)
   l, m, a = 0, -1, 1
   s.size.times{|n|
-    d = (0..l).inject(0) {|sum, i| (sum + c[i] * s[n - i]) % q}
+    d = (0..l).inject(0){|sum, i| (sum + c[i] * s[n - i]) % q}
     next if d == 0
     t = c[0..l]
     (0...[s.size - n + m, b.size].min).each{|j|
