@@ -9,5 +9,5 @@ a =
 6259498722345318699987, 26421290617431339731196]
 f = polynomial(a)  
 p f # [1, -12, 54, -108, 57, 72, 216, -648, 216, 432, 1944, 0, -864, -2592, 0, 0, 1296]
-p integer_form(f, seq_name: "a", index: "n")
+p reccurence_form(f, seq_name: "a", index: "n")
 # p reccurence_relation(a, seq_name: "a", index: "n")
