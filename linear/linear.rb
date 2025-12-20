@@ -57,7 +57,7 @@ def polynomial(s)
   }
 end
 
-def integer_form(coeffs, seq_name: "a", index: "n")
+def reccurence_form(coeffs, seq_name: "a", index: "n")
   raise ArgumentError, "係数は2個以上必要です" if coeffs.length < 2
   raise ArgumentError, "最高次係数が0です" if coeffs[0] == 0
 
@@ -89,6 +89,6 @@ end
 
 def reccurence_relation(s, seq_name: "a", index: "n")
   coeffs = polynomial(s)
-  integer_form(coeffs, seq_name: seq_name, index: index)
+  reccurence_form(coeffs, seq_name: seq_name, index: index)
 end
 
