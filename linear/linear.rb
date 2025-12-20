@@ -56,3 +56,39 @@ def polynomial(s)
     n *= q
   }
 end
+
+def integer_form(coeffs, seq_name: "a", index: "n")
+  raise ArgumentError, "係数は2個以上必要です" if coeffs.length < 2
+  raise ArgumentError, "最高次係数が0です" if coeffs[0] == 0
+
+  a0 = coeffs[0]
+  terms = []
+
+  coeffs[1..].each_with_index { |c, i|
+    next if c == 0
+    coef  = -c
+    shift = i + 1
+
+    term =
+      if coef == 1
+        "#{seq_name}(#{index}-#{shift})"
+      elsif coef == -1
+        "-#{seq_name}(#{index}-#{shift})"
+      else
+        "#{coef}*#{seq_name}(#{index}-#{shift})"
+      end
+
+    terms << term
+  }
+
+  rhs = terms.join(" + ").gsub("+ -", "- ")
+
+  a0 == 1 ? "#{seq_name}(#{index}) = #{rhs}" :
+            "#{a0}*#{seq_name}(#{index}) = #{rhs}"
+end
+
+def reccurence_relation(s, seq_name: "a", index: "n")
+  coeffs = polynomial(s)
+  integer_form(coeffs, seq_name: seq_name, index: index)
+end
+
