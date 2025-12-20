@@ -64,7 +64,7 @@ def integer_form(coeffs, seq_name: "a", index: "n")
   a0 = coeffs[0]
   terms = []
 
-  coeffs[1..].each_with_index { |c, i|
+  coeffs[1..].each_with_index{|c, i|
     next if c == 0
     coef  = -c
     shift = i + 1
