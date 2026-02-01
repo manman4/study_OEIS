@@ -67,7 +67,7 @@ my(N=66, x='x+O('x^N)); Vec(serlaplace(exp(2*(exp(x)-1-x))))
 ```
 
 
-b-file作成（備忘録用）
+## b-file作成（備忘録用）
 
 gp ファイル内でNを使わない方がいい。
 
