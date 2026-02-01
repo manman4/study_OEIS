@@ -66,6 +66,31 @@ my(N=66, x='x+O('x^N)); concat([0, 0], Vec(sum(k=1, N, x^(k*(3*k+1)/2)/(1-x^k)))
 my(N=66, x='x+O('x^N)); Vec(serlaplace(exp(2*(exp(x)-1-x))))
 ```
 
+## 外部出力（b-file）
+
+対話型のままだと出力先のpath名を具体的に書いていないと、意図せぬところに出力される。
+
+よって対話型でなく、カレントディレクトリにおいてgpを叩くと、カレントディレクトリに出力される
+
+```PARI
+% gp
+                         GP/PARI CALCULATOR Version 2.17.3 (released)
+                arm64 running darwin (aarch64/GMP-6.3.0 kernel) 64-bit version
+             compiled: Nov 11 2025, Apple clang version 17.0.0 (clang-1700.4.4.1)
+                           threading engine: pthread, nbthreads = 8
+                        (readline v8.3 enabled, extended help enabled)
+
+                            Copyright (C) 2000-2024 The PARI Group
+
+PARI/GP is free software, covered by the GNU General Public License, and comes WITHOUT ANY 
+WARRANTY WHATSOEVER.
+
+Type ? for help, \q to quit.
+Type ?18 for how to get moral (and possibly technical) support.
+
+parisize = 8000000, primelimit = 1048576, factorlimit = 1048576
+? \r /Users/xxxx.gp
+```
 
 ## b-file作成（備忘録用）
 
