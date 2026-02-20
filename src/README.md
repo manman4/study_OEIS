@@ -129,7 +129,7 @@ g++-omp your_code.cpp -o your_program
 
 
 ```bash
-alias 
+alias
 ```
 
 出力例
@@ -138,6 +138,19 @@ alias
 g++-omp='clang++ -O3 -Xpreprocessor -fopenmp -std=c++17 -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp'
 gcc-omp='clang -O3 -Xpreprocessor -fopenmp -lomp -L/opt/homebrew/opt/libomp/lib -I/opt/homebrew/opt/libomp/include'
 ```
+
+### OpenMP を使わないコードへの適用
+
+`gcc-omp` / `g++-omp` は、OpenMP を使わない通常の C/C++ コードにも使用できます。
+`-fopenmp` や `-lomp` などのフラグは OpenMP の機能を有効にするだけで、コード内で使っていなければ何もしないため、コンパイルエラーにはなりません。実行結果も通常のコンパイルと同じになります。
+
+ただし、以下の点に注意してください。
+
+| フラグ | 影響 |
+|--------|------|
+| `-O3` | 最適化レベルが高くなる（デフォルトは `-O0`）。計算結果は同じだが実行速度が変わることがある。浮動小数点演算では稀に微妙な差が出ることも。 |
+| `-lomp`（libomp のリンク） | OpenMP ランタイムが実行バイナリにリンクされる。動作に影響はないがバイナリサイズが若干大きくなる。 |
+| `-std=c++17`（C++ 用のみ） | C++17 の機能が使えるようになる。古い規格のコードでも問題なく動く。 |
 
 # PARI/GPについて
 
