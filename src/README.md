@@ -10,6 +10,8 @@
 
 [OEIS_03](https://github.com/manman4/OEIS_03)
 
+[OEIS_04](https://github.com/manman4/OEIS_04)
+
 に移行します。
 
 # OpenMP
