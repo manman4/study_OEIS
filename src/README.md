@@ -24,9 +24,9 @@ Mac では、Apple Clang で OpenMP を使用するために、Homebrew を使�
 
 2. ターミナルを開いて、以下のコマンドを実行して `libomp` をインストールします。
 
-   ```bash
-   brew install libomp
-   ```
+```bash
+brew install libomp
+```
 
 インストールが完了したら、言語に合わせてエイリアスを設定してください。
 
