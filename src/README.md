@@ -16,6 +16,113 @@
 
 ## Mac
 
+Mac では、Apple Clang で OpenMP を使用するために、Homebrew を使用して `libomp` をインストールする必要があります。
+
+1. Homebrew をインストールしていない場合は、公式サイト（https://brew.sh/）の指示に従ってインストールしてください。
+
+2. ターミナルを開いて、以下のコマンドを実行して `libomp` をインストールします。
+
+   ```bash
+   brew install libomp
+   ```
+
+インストールが完了したら、言語に合わせてエイリアスを設定してください。
+
+#### C
+
+ステップ1：設定ファイル（.zshrc）を開く
+
+ターミナルで以下のコマンドを入力して、設定ファイルをエディタで開きます。
+
+```bash
+nano ~/.zshrc
+```
+
+ステップ2：エイリアスを追記する
+
+ファイルの末尾に、以下の 1行 をコピー＆ペーストしてください。
+
+```bash
+alias gcc-omp='clang -O3 -Xpreprocessor -fopenmp -lomp -L/opt/homebrew/opt/libomp/lib -I/opt/homebrew/opt/libomp/include'
+```
+
+- `clang`: C用のコンパイラを指定。
+- `-Xpreprocessor -fopenmp`: Apple Clang で OpenMP を有効にするためのフラグ。
+- `-lomp`: libomp をリンク。
+- `-I` と `-L`: Homebrew でインストールした OpenMP の場所を明示。
+
+ステップ3：保存して閉じる
+
+保存: Control + O キーを押し、そのまま Enter を押します。
+
+終了: Control + X キーを押してエディタを閉じます。
+
+ステップ4：設定を現在のターミナルに反映させる
+
+これを忘れると、まだエイリアスが使えません。
+
+```bash
+source ~/.zshrc
+```
+
+動作確認：いざコンパイル！
+
+これで準備完了です。以下のコマンドで、C コードをコンパイルしてみてください。
+
+```bash
+gcc-omp your_code.c -o your_program
+```
+
+エラーが出ずに終了すれば成功です。あとは実行するだけです。
+
+#### C++
+
+ステップ1：設定ファイル（.zshrc）を開く
+
+ターミナルで以下のコマンドを入力して、設定ファイルをエディタで開きます。
+
+```bash
+nano ~/.zshrc
+```
+
+ステップ2：エイリアスを追記する
+
+ファイルの末尾（または既存の gcc-omp の下）に、以下の 1行 をコピー＆ペーストしてください。
+
+```bash
+alias g++-omp='clang++ -O3 -Xpreprocessor -fopenmp -std=c++17 -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp'
+```
+
+- `clang++`: C++用のコンパイラを指定。
+- `-std=c++17`: C++17規格を使用（構造化束縛、`if constexpr` など C++17 以降の機能を有効にします）。
+- `-Xpreprocessor -fopenmp`: Apple Clang で OpenMP を有効にするためのフラグ。
+- `-lomp`: libomp をリンク。
+- `-I` と `-L`: Homebrew でインストールした OpenMP の場所を明示。
+
+ステップ3：保存して閉じる
+
+保存: Control + O キーを押し、そのまま Enter を押します。
+
+終了: Control + X キーを押してエディタを閉じます。
+
+ステップ4：設定を現在のターミナルに反映させる
+
+これを忘れると、まだエイリアスが使えません。
+
+```bash
+source ~/.zshrc
+```
+
+動作確認：いざコンパイル！
+
+これで準備完了です。以下のコマンドで、C++ コードをコンパイルしてみてください。
+
+```bash
+g++-omp your_code.cpp -o your_program
+```
+
+エラーが出ずに終了すれば成功です。あとは実行するだけです。
+
 # PARI/GPについて
 
 言語の仕様等はこちらのリポジトリで整理
