@@ -125,6 +125,20 @@ g++-omp your_code.cpp -o your_program
 
 エラーが出ずに終了すれば成功です。あとは実行するだけです。
 
+#### 設定したエイリアスの確認
+
+
+```bash
+alias 
+```
+
+出力例
+
+```bash
+g++-omp='clang++ -O3 -Xpreprocessor -fopenmp -std=c++17 -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp'
+gcc-omp='clang -O3 -Xpreprocessor -fopenmp -lomp -L/opt/homebrew/opt/libomp/lib -I/opt/homebrew/opt/libomp/include'
+```
+
 # PARI/GPについて
 
 言語の仕様等はこちらのリポジトリで整理
