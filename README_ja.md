@@ -45,7 +45,7 @@
 
 - domino
 
-- addtion triangle
+- addition triangle
 
 - staircase polyomino
 

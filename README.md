@@ -45,7 +45,7 @@ Study of each sequence of numbers in the [OEIS](https://oeis.org/)
 
 - domino
 
-- addtion triangle
+- addition triangle
 
 - staircase polyomino
 
