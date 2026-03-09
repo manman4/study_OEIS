@@ -84,7 +84,7 @@ a_vector(n) = my(v=vector(n)); v[1]=1; for(i=1, n-1, v[i+1]=sum(j=1, i, (-1)^(i-
 
 OSがwindowsの頃
 
-difff やdiffchecker → winmerge
+(difffローカル)[https://github.com/manman4/difff] やdiffchecker → winmerge
 
 OSがLinuxやmacになってから
 
