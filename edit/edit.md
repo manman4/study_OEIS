@@ -51,6 +51,8 @@ Cf. [A376033](https://oeis.org/A376033)
 
 http://oeis.org/wiki/Offsets#Offset_1_.28Lists.29_.28Functions_that_are_defined_for_all_positive_integers.29
 
+### 奇関数について
+
 ## b-file
 
 ## PROG
