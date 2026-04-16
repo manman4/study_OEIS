@@ -47,11 +47,10 @@ Cf. [A376033](https://oeis.org/A376033)
 
 ## OFFSET
 
-最近までリストは1から始まるが原則だったが、最近変更された。
+[こちら](https://github.com/manman4/study_OEIS/blob/main/edit/offset/README.md)に記載
 
-http://oeis.org/wiki/Offsets#Offset_1_.28Lists.29_.28Functions_that_are_defined_for_all_positive_integers.29
 
-### 奇関数について
+
 
 ## b-file
 
