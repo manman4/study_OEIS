@@ -10,3 +10,4 @@ http://oeis.org/wiki/Offsets#Offset_1_.28Lists.29_.28Functions_that_are_defined_
 |--|--|--|
 | [A012476](https://oeis.org/A012476) | arcsinh(cos(x)*sin(x)) | 0 |
 | [A012477](https://oeis.org/A012477) | arctanh(cos(x)*sin(x)) | 0 |
+| [A296741](https://oeis.org/A296741) | arcsin(x*sec(x)) | 0 |
