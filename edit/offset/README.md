@@ -10,6 +10,7 @@ http://oeis.org/wiki/Offsets#Offset_1_.28Lists.29_.28Functions_that_are_defined_
 |--|--|--|
 | [A000182](https://oeis.org/A000182) | tan(x) = x + 2*x^3/3! + 16*x^5/5! + 272*x^7/7! + ... | 1 ⚠️ |
 | [A009558](https://oeis.org/A009558) | sin(x)/cosh(sin(x)) | 1 ⚠️ |
+| [A009559](https://oeis.org/A009559) | sin(x)/cosh(tan(x)) | 0 |
 | [A012476](https://oeis.org/A012476) | arcsinh(cos(x)*sin(x)) | 0 |
 | [A012477](https://oeis.org/A012477) | arctanh(cos(x)*sin(x)) | 0 |
 | [A296680](https://oeis.org/A296680) | arcsin(arctanh(x)) | 0 |
