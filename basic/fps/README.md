@@ -218,28 +218,41 @@ $$
 
 ### 変換のしかた
 
+E.G.F.
+
 $$
 F(x)=\sum_{n\ge0} a_n \frac{x^n}{n!}
 $$
 
-に対して
+に対して、O.G.F.
 
 $$
-\widehat{F}(x)=\sum_{n\ge0} \widehat{a}_n x^n,
-\qquad
-\widehat{a}_n=\frac{a_n}{n!}
+G(x)=\sum_{n\ge0} c_n x^n
 $$
 
-とおくと、$\widehat{F}$ は普通の O.G.F. になります。
-
-この $\widehat{F}$ に対して Miller 公式や `log` / `exp` を適用し、  
-結果の係数 $\widehat{b}_n$ を得たあとで
+を
 
 $$
-b_n = n! \widehat{b}_n
+c_n=\frac{a_n}{n!}
 $$
 
-と戻せば、E.G.F. の係数が得られます。
+で定めます。  
+すると `G(x)` は普通の O.G.F. として扱えます。
+
+つまり、
+
+- E.G.F. の係数 `a_n`
+- O.G.F. の係数 `c_n = a_n / n!`
+
+と持ち替えてから、Miller 公式や `log` / `exp` を `G(x)` に適用します。
+
+逆に、O.G.F. 側で求めた係数を `d_n` とすると、E.G.F. 側の係数は
+
+$$
+b_n=n!d_n
+$$
+
+で戻せます。
 
 ### 実装上の見方
 
