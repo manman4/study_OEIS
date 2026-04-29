@@ -202,13 +202,13 @@ $$
 O.G.F. では普通の畳み込み
 
 $$
-\left[x^n\right](A(x)B(x))=\sum_{k=0}^n a_k b_{n-k}
+[x^n]\,A(x)B(x)=\sum_{k=0}^n a_k b_{n-k}
 $$
 
 ですが、E.G.F. では
 
 $$
-\left[\frac{x^n}{n!}\right](A(x)B(x))=\sum_{k=0}^n \binom{n}{k} a_k b_{n-k}
+\left[\frac{x^n}{n!}\right]A(x)B(x)=\sum_{k=0}^n \binom{n}{k} a_k b_{n-k}
 $$
 
 となり、**二項係数つきの畳み込み**になります。
