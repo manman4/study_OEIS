@@ -259,7 +259,7 @@ parisize = 8000000, primelimit = 500000
 v(n)={x='x+O('x^(n+10)); ～ };
 M=100;
 v=v(M);
-for(n=0, M, write("C:\\Users\\○○\\bXXXXXX.txt", n, " ", polcoef(v, n)))
+for(n=0, M, write("C:\\Users\\○○\\bXXXXXX.txt", n, " ", polcoef(v, n)));
 ```
 
 - E.g.f.:
@@ -271,7 +271,7 @@ for(n=0, M, write("C:\\Users\\○○\\bXXXXXX.txt", n, " ", polcoef(v, n)))
 v(n)={x='x+O('x^(n+10)); serlaplace(～) };
 M=100;
 v=v(M);
-for(n=0, M, write("C:\\Users\\○○\\bXXXXXX.txt", n, " ", polcoef(v, n)))
+for(n=0, M, write("C:\\Users\\○○\\bXXXXXX.txt", n, " ", polcoef(v, n)));
 ```
 
 # MAGMAによる計算
