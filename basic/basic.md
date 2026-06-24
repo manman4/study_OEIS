@@ -45,6 +45,27 @@ binomial(-k,-n) = (-1)^(n-k) * binomial(n-1,k-1)
 
 Cf. https://oeis.org/wiki/User:Peter_Luschny/ExtensionsOfTheBinomial
 
+#### 注意
+
+"pari-2.17.3/NEW"　で　以下のように変化した
+
+  188 1) Output changes:
+  189   - specify how Vec(v, n) truncates v when #v > |n|. Changes previous
+  190     behaviour when n < 0: Vec([1,2,3], -2) -> [2,3]  (was [1,2])
+  191     Same for Vecrev, Vecsmall, Col, and Colrev.
+  192 
+  193   - changed qfbred to use the same (standard) normalization as qfbredsl2 in
+  194     all cases (was different for real forms)
+  195 
+  196   - binomial(negative t_INT, t_INT): use D. Loeb's definition which ensures
+  197     (a + b)^n = sum_{k >= 0} binomial(n, k) a^(n-k) b^k for all complex
+  198     numbers a, b, n with |b| < |a|. Beware that this extension is
+  199     incompatible with the other traditional extension binomial(n, k) := 0
+  200     if k < 0.
+  201 
+  202   - printf: numerical conversions now also apply (recursively) to complex
+  203     numbers
+
 
 ## 形式的べき級数(FPS)
 
