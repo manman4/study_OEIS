@@ -49,7 +49,8 @@ Cf. https://oeis.org/wiki/User:Peter_Luschny/ExtensionsOfTheBinomial
 
 "pari-2.17.3/NEW"　で　以下のように変化した
 
-  188 1) Output changes:
+```
+188 1) Output changes:
   189   - specify how Vec(v, n) truncates v when #v > |n|. Changes previous
   190     behaviour when n < 0: Vec([1,2,3], -2) -> [2,3]  (was [1,2])
   191     Same for Vecrev, Vecsmall, Col, and Colrev.
@@ -65,6 +66,7 @@ Cf. https://oeis.org/wiki/User:Peter_Luschny/ExtensionsOfTheBinomial
   201 
   202   - printf: numerical conversions now also apply (recursively) to complex
   203     numbers
+```
 
 
 ## 形式的べき級数(FPS)
