@@ -6,7 +6,7 @@
 #
 #   sage -pip install --no-build-isolation \
 #        git+https://github.com/mkauers/ore_algebra.git
-#   sage multi_ct.sage
+#   sage ore_algebra.sage
 # =============================================================================
 
 # --- monkeypatches for Sage 10.1 <-> ore_algebra incompatibilities ----------
