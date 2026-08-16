@@ -149,8 +149,44 @@ gcc-omp='clang -O3 -Xpreprocessor -fopenmp -lomp -L/opt/homebrew/opt/libomp/lib 
 | フラグ | 影響 |
 |--------|------|
 | `-O3` | 最適化レベルが高くなる（デフォルトは `-O0`）。計算結果は同じだが実行速度が変わることがある。浮動小数点演算では稀に微妙な差が出ることも。 |
-| `-lomp`（libomp のリンク） | OpenMP ランタイムが実行バイナリにリンクされる。動作に影響はないがバイナリサイズが若干大きくなる。 |
-| `-std=c++17`（C++ 用のみ） | C++17 の機能が使えるようになる。古い規格のコードでも問題なく動く。 |
+| `-lomp`（libomp のリンク） | libomp は動的ライブラリなのでバイナリサイズはほぼ変わらない（実測で同一）。ただし `/opt/homebrew/opt/libomp/lib/libomp.dylib` への実行時依存が増えるため、`brew uninstall libomp` するとそのバイナリは起動しなくなる。依存関係は `otool -L your_program` で確認できる。 |
+| `-std=c++17`（C++ 用のみ） | Apple Clang のデフォルトは C++98（`__cplusplus` が `199711`）なので、C++17 を使うにはこの指定が必須。ただし C++17 で削除された機能（`register` 記憶クラス指定子、`throw(int)` のような非空の動的例外指定、`std::auto_ptr`、`std::random_shuffle` など）はエラーになるため、古い規格のコードが常にそのまま通るわけではない。なお空の `throw()` は C++17 では `noexcept` の別名として有効（削除は C++20）。また `gnu++17` ではなく `c++17` を指定しているため `__STRICT_ANSI__` が定義され、`typeof` など一部の GNU 拡張キーワードが使えなくなる（文式 `({...})` などは通る）。 |
+
+### 補足：Clang と LLVM の内部構造
+
+Clang は単体のコンパイラではなく、**LLVM** というコンパイラ基盤の一部（フロントエンド）です。
+
+```
+C/C++ ソース
+    ↓
+  Clang            … フロントエンド（構文解析・意味解析）
+    ↓
+ LLVM IR           … 言語に依存しない中間表現
+    ↓
+LLVM optimizer     … 最適化（-O0 〜 -O3 はここに効く）
+    ↓
+  機械語            … バックエンド（arm64 など）
+```
+
+この構造から、上の表の挙動が説明できます。
+
+- **`-O3` が効く場所**：最適化は Clang ではなく LLVM optimizer が LLVM IR に対して行います。ソース言語（C か C++ か）に関係なく同じ最適化基盤が使われるのはこのためです。
+- **`-Xpreprocessor -fopenmp` の役割**：`#pragma omp` はフロントエンドで解釈され、LLVM IR の段階では libomp のランタイム関数呼び出し（`__kmpc_fork_call` など）に変換されています。だから `-lomp` でのリンクが必要になります。このフラグを付けないと pragma は無視され、逐次実行のバイナリができます（エラーにはならないので注意）。
+
+実際に中間表現を覗くことができます。
+
+```bash
+clang -S -emit-llvm -O3 your_code.c -o your_code.ll
+```
+
+```llvm
+; ModuleID = 'p.c'
+source_filename = "p.c"
+target datalayout = "e-m:o-i64:64-i128:128-n32:64-S128"
+target triple = "arm64-apple-macosx15.0.0"
+```
+
+なお macOS では `gcc` コマンドも実体は Clang です（`gcc --version` を実行すると `Apple clang version ...` と表示されます）。GNU GCC ではないので、README 冒頭のエイリアス名 `gcc-omp` はあくまで慣習的な名前です。
 
 # PARI/GPについて
 
