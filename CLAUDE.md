@@ -86,6 +86,17 @@ v = v(M);
 for(n=0, M, write("bXXXXXX.txt", n, " ", polcoef(v, n)))
 ```
 
+## Public Repository Notice
+
+This repository is public: https://github.com/manman4/study_OEIS
+
+- Never write real usernames or home directory paths. Anonymize examples as
+  `/Users/xxx/...` or `C:\Users\○○\...`, matching the existing convention in
+  `src/README.md` and `hyper_geom/hype_geom.md`.
+- Always confirm before `git push`. Pushing publishes to a public repo, and a
+  force-push does not reliably remove content from GitHub (forks, dangling
+  objects, and search engine caches retain it).
+
 ## OEIS Edit Conventions
 
 - When a value is undefined/missing: use `-1`, not `0` (easier to search).
