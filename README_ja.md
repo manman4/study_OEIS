@@ -47,7 +47,9 @@
 
 - addition triangle
 
-- staircase polyomino
+- tiling
+
+    正方形・階段ポリオミノ・三角形などの敷き詰め
 
 - sumdiv
 

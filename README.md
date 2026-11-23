@@ -47,7 +47,9 @@ Study of each sequence of numbers in the [OEIS](https://oeis.org/)
 
 - addition triangle
 
-- staircase polyomino
+- tiling
+
+    Tilings of squares, staircase polyominoes, triangles, etc.
 
 - sumdiv
 
