@@ -2,3 +2,4 @@
 oeis_fun/stripped
 
 .env
+.DS_Store

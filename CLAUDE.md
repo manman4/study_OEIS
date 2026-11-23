@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This repository is a research workspace for studying sequences in [OEIS](https://oeis.org/). Each file computes, verifies, or explores a specific OEIS sequence. The primary languages used are Ruby (151 files), Python (100 files), and PARI/GP (96 files).
+This repository is a research workspace for studying sequences in [OEIS](https://oeis.org/). Each file computes, verifies, or explores a specific OEIS sequence. The primary languages used are Ruby, Python, and PARI/GP.
 
 ## Running Code
 

@@ -9,59 +9,119 @@ Study of each sequence of numbers in the [OEIS](https://oeis.org/)
 
 ### General
 
-- test
- 
+- [test](test/)
+
     Verification of PARI results
 
-- src
+- [src](src/)
 
     Separate repository (organized in numerical sequence numbering)
-    
-- formula
+
+- [formula](formula/)
 
     Verification of added formulas, etc.
-    
-- transform
+
+- [basic](basic/)
+
+    Common binomial identities, formal power series (FPS)
+
+- [math_func](math_func/)
+
+    Bell polynomials, Eulerian polynomials, Faulhaber's formula, Lambert W function, etc.
+
+- [transform](transform/)
 
     Bell transform
-    
+
     generalized Euler transform
-    
+
     Inverse Möbius transform
 
     Möbius transform
-    
+
     Stirling transform
-    
-- eta_product
 
-- linear
+- [eta_product](eta_product/)
 
-- p_recursive
+- [linear](linear/)
+
+- [p_recursive](p_recursive/)
+
+### Generating functions and series
+
+- [egf_exp](egf_exp/)
+
+    E.g.f. 1/(1 - f(x)) and exp(f(x))
+
+- [dgf](dgf/)
+
+    Dirichlet generating functions
+
+- [series_reversion](series_reversion/)
+
+    Series reversion (Lagrange inversion)
+
+- [functional_square_root](functional_square_root/)
+
+    Functional equations such as A(A(x)) = ...
+
+- [riordan_array](riordan_array/)
+
+- [hyper_geom](hyper_geom/)
+
+    Hypergeometric series
+
+- [q_analog](q_analog/)
+
+    q-binomial coefficients
+
+- [constant_term](constant_term/)
+
+    Sequences given as constant terms
+
+- [diagonal](diagonal/)
+
+    Diagonals of bivariate rational functions
 
 ### Individual topics
 
-- graphillion
+- [graphillion](graphillion/)
 
-- domino
+- [domino](domino/)
 
-- addition triangle
+- [addition_triangle](addition_triangle/)
 
-- tiling
+- [tiling](tiling/)
 
     Tilings of squares, staircase polyominoes, triangles, etc.
 
-- sumdiv
+- [sumdiv](sumdiv/)
 
-- young tableaux
+- [young_tableaux](young_tableaux/)
 
-- partition
+- [partition](partition/)
 
-- composition
+- [composition](composition/)
+
+- [permutation](permutation/)
+
+    Permutation statistics (descents, excedances, etc.)
+
+- [multiplicative_function](multiplicative_function/)
+
+    Multiplicative functions
+
+- [prime](prime/)
+
+    Diophantine representation of the primes
 
 ### Miscellaneous
 
-- edit
+- [edit](edit/)
+
+- [oeis_fun](oeis_fun/)
+
+    The smallest number not listed in OEIS (see below)
 
 
 
