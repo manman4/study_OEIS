@@ -1,5 +1,7 @@
 # sumdiv
 
+関連：[divisors_of_form.md](divisors_of_form.md)（Number of divisors of s\*n-t of form s\*k+u）
+
 ## Sum_{k>=1} a(k) * x^k/(1 - x^k)　っぽいもの
 
 
