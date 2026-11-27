@@ -93,9 +93,18 @@ This repository is public: https://github.com/manman4/study_OEIS
 - Never write real usernames or home directory paths. Anonymize examples as
   `/Users/xxx/...` or `C:\Users\○○\...`, matching the existing convention in
   `src/README.md` and `hyper_geom/hype_geom.md`.
+- Never describe the local working environment in committed text. Cite
+  sources neutrally, e.g. "OEIS (as of 2026-11)".
 - Always confirm before `git push`. Pushing publishes to a public repo, and a
   force-push does not reliably remove content from GitHub (forks, dangling
   objects, and search engine caches retain it).
+- Do not rewrite history (`commit --amend`, rebase, force-push). `main` is
+  protected and rejects force-push, so fix mistakes with a new commit. The
+  only exception: amending commits that `git fetch && git status -sb` shows
+  are unpushed, with the user's approval.
+- Commits may be pushed outside the session. Before saying whether a commit is
+  pushed, run `git fetch && git status -sb` at that moment; do not rely on an
+  earlier check.
 
 ## OEIS Edit Conventions
 
