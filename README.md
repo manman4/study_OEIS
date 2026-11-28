@@ -129,7 +129,7 @@ Study of each sequence of numbers in the [OEIS](https://oeis.org/)
 
 ### The smallest number not listed　
 
-20990
+23543
 
 - https://benwiederhake.github.io/oeis-funfacts/
 - https://manman4.github.io/
