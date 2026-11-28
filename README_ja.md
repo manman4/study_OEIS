@@ -129,7 +129,7 @@
 
 ### 載っていない最も小さな数　
 
-20990
+23543
 
 - https://benwiederhake.github.io/oeis-funfacts/
 - https://manman4.github.io/
